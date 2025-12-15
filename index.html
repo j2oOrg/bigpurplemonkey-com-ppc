@@ -9,9 +9,9 @@
   <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <title>bigpurplemonkey Raffle | Licensed Weekly Cash Draws</title>
-  <meta name="description" content="Enter the licensed bigpurplemonkey weekly raffle: 995 tickets at $10, one $3,780 cash prize drawn Dec 26, 2025. Transparent odds, quick entry, responsible play.">
+  <meta name="description" content="Enter the licensed bigpurplemonkey weekly raffle: 995 tickets at $10, one $4,725 cash prize drawn Dec 26, 2025. Transparent odds, quick entry, responsible play.">
   <meta property="og:title" content="bigpurplemonkey Raffle | Licensed Weekly Cash Draws">
-  <meta property="og:description" content="Join a licensed raffle with clear odds—995 tickets at $10 for one $3,780 prize. Draw on Dec 26, 2025. Built for fast entry and responsible play.">
+  <meta property="og:description" content="Join a licensed raffle with clear odds—995 tickets at $10 for one $4,725 prize. Draw on Dec 26, 2025. Built for fast entry and responsible play.">
   <meta property="og:image" content="/images/img-1765825343175.jpg">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://bigpurplemonkey.com/">
@@ -148,7 +148,7 @@ img{max-width:100%; display:block}
 .hero{
   position:relative;
   overflow:hidden;
-  padding:clamp(2.5rem, 6vw, 4.8rem) 0 clamp(3rem, 7vw, 5.6rem);
+  padding:clamp(2.8rem, 6vw, 5.4rem) 0 clamp(3.4rem, 8vw, 6.2rem);
 }
 .hero::before,
 .hero::after{
@@ -167,22 +167,55 @@ img{max-width:100%; display:block}
   position:relative;
   z-index:1;
   display:grid;
-  grid-template-columns:1.1fr 0.9fr;
-  gap:2.2rem;
-  align-items:center;
+  grid-template-columns:1.05fr 0.95fr;
+  gap:clamp(1.4rem, 4vw, 2.4rem);
+  align-items:stretch;
+  padding:clamp(1.4rem, 4vw, 2.4rem);
+  background:linear-gradient(135deg, rgba(6,26,33,0.92), rgba(8,37,47,0.82));
+  border:1px solid var(--border);
+  border-radius:22px;
+  box-shadow:var(--shadow);
+  overflow:hidden;
+  isolation:isolate;
+}
+.hero-grid::before{
+  content:"";
+  position:absolute;
+  inset:-18% 38% 6% -18%;
+  background:
+    radial-gradient(circle at 30% 40%, rgba(111,231,194,0.22), transparent 55%),
+    radial-gradient(circle at 78% 28%, rgba(255,173,97,0.18), transparent 55%),
+    linear-gradient(120deg, rgba(88,183,255,0.12), rgba(6,20,27,0));
+  z-index:0;
+}
+.hero-copy{
+  position:relative;
+  z-index:1;
+  background:rgba(255,255,255,0.03);
+  border:1px solid var(--border);
+  border-radius:18px;
+  padding:1.2rem 1.3rem;
+  box-shadow:0 18px 48px rgba(0,0,0,0.45);
 }
 .hero-copy .eyebrow{
   letter-spacing:3px;
   text-transform:uppercase;
   font-size:0.85rem;
   color:var(--muted);
-  margin:0 0 0.4rem;
+  margin:0 0 0.5rem;
+  display:inline-flex;
+  align-items:center;
+  gap:0.4rem;
+  padding:0.35rem 0.7rem;
+  border-radius:999px;
+  background:rgba(255,255,255,0.04);
+  border:1px solid var(--border);
 }
 .hero-title{
   font-family:var(--font-display);
-  font-size:clamp(2.2rem, 5vw, 3.8rem);
+  font-size:clamp(2.5rem, 5.6vw, 4.2rem);
   letter-spacing:1px;
-  margin:0 0 0.6rem;
+  margin:0.2rem 0 0.7rem;
   color:var(--heading);
 }
 .hero-prize-stack{display:flex; flex-direction:column; gap:0.25rem; margin:0 0 0.8rem}
@@ -191,6 +224,10 @@ img{max-width:100%; display:block}
   font-family:var(--font-display);
   font-size:clamp(2.6rem, 6vw, 4.4rem);
   color:var(--accent);
+  background:linear-gradient(110deg, var(--accent), var(--highlight));
+  -webkit-background-clip:text;
+  background-clip:text;
+  color:transparent;
   letter-spacing:1px;
   text-shadow:0 6px 28px rgba(0,0,0,0.4);
 }
@@ -206,6 +243,38 @@ img{max-width:100%; display:block}
   max-width:720px;
 }
 .hero-cta{display:flex; gap:0.8rem; flex-wrap:wrap; margin:1rem 0 0.8rem}
+.hero-highlights{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(180px, 1fr));
+  gap:0.75rem;
+  margin:1rem 0 0.6rem;
+}
+.hero-highlights .h-card{
+  background:var(--panel);
+  border:1px solid var(--border);
+  border-radius:14px;
+  padding:0.85rem 1rem;
+  box-shadow:0 16px 40px rgba(0,0,0,0.46);
+}
+.hero-highlights .label{
+  display:flex;
+  align-items:center;
+  gap:0.4rem;
+  color:var(--muted);
+  font-weight:700;
+  letter-spacing:0.5px;
+  text-transform:uppercase;
+  font-size:0.85rem;
+  margin:0 0 0.25rem;
+}
+.hero-highlights .value{
+  display:block;
+  font-family:var(--font-display);
+  font-size:1.8rem;
+  color:var(--heading);
+  margin:0 0 0.1rem;
+}
+.hero-highlights small{color:var(--muted); font-weight:600}
 .pill{
   display:inline-flex;
   align-items:center;
@@ -251,6 +320,9 @@ img{max-width:100%; display:block}
   padding:1.2rem;
   box-shadow:var(--shadow);
   overflow:hidden;
+  display:flex;
+  align-items:center;
+  justify-content:center;
 }
 .hero-visual .halo{
   position:absolute;
@@ -259,7 +331,7 @@ img{max-width:100%; display:block}
   filter:blur(30px);
   z-index:0;
 }
-.hero-visual img{position:relative; z-index:1; border-radius:14px; box-shadow:0 16px 44px rgba(0,0,0,0.55)}
+.hero-visual img{position:relative; z-index:1; border-radius:14px; box-shadow:0 16px 44px rgba(0,0,0,0.55); width:100%; height:100%; object-fit:cover}
 .hero-label{position:absolute; top:14px; right:14px; z-index:2; background:rgba(6,20,27,0.82); border:1px solid var(--border); padding:0.4rem 0.8rem; border-radius:999px; color:var(--muted); font-weight:700}
 
 .section-head{text-align:center; margin-bottom:1.6rem}
@@ -406,13 +478,34 @@ img{max-width:100%; display:block}
     <section class="hero" id="home">
       <div class="container hero-grid">
         <div class="hero-copy">
-          <p class="eyebrow">Compete &amp; win big every week</p>
-          <h1 class="hero-title">Up to $154,000 cash prizes weekly</h1>
+          <p class="eyebrow"><i class="fa-solid fa-shield"></i> Licensed weekly raffle</p>
+          <h1 class="hero-title">Up to $192,500 cash prizes weekly</h1>
           <div class="hero-prize-stack">
-            <span class="hero-prize">$3,780 Current Licensed Draw</span>
+            <span class="hero-prize">$4,725 Current Licensed Draw</span>
             <span class="hero-prize-sub">995 tickets • $10 each • Licence #465790</span>
           </div>
-          <p class="hero-sub">bigpurplemonkey is a licensed raffle experience with real cash prizes. Enter the current draw, track the countdown, and see winners posted after the official date.</p>
+          <p class="hero-sub">bigpurplemonkey is a licensed raffle experience with real cash prizes. Fast entry, transparent odds, and winners posted after the official draw.</p>
+          <div class="hero-cta">
+            <a href="#" class="btn primary" data-signup-btn=""><i class="fa-solid fa-bolt"></i> Join Now &amp; Start Winning</a>
+            <a href="#how" class="btn ghost">How it works</a>
+          </div>
+          <div class="hero-highlights">
+            <div class="h-card">
+              <span class="label"><i class="fa-solid fa-ticket"></i> Ticket pool</span>
+              <span class="value">995</span>
+              <small>Max odds: 1 in 995</small>
+            </div>
+            <div class="h-card">
+              <span class="label"><i class="fa-solid fa-dollar-sign"></i> Per ticket</span>
+              <span class="value">$10</span>
+              <small>Licensed #465790</small>
+            </div>
+            <div class="h-card">
+              <span class="label"><i class="fa-solid fa-calendar-check"></i> Draw date</span>
+              <span class="value">Dec 26</span>
+              <small>2025 • Taber, Alberta</small>
+            </div>
+          </div>
           <div class="countdown-card">
             <p class="countdown-title">Draw date: December 26, 2025</p>
             <div class="countdown" id="countdown">
@@ -421,15 +514,6 @@ img{max-width:100%; display:block}
               <div class="slot"><span class="value" id="countdownMinutes">00</span><small>Minutes</small></div>
               <div class="slot"><span class="value" id="countdownSeconds">00</span><small>Seconds</small></div>
             </div>
-          </div>
-          <div class="hero-cta">
-            <a href="#" class="btn primary" data-signup-btn="">Join Now &amp; Start Winning</a>
-            <a href="#how" class="btn ghost">How it works</a>
-          </div>
-          <div class="badges">
-            <span class="pill accent"><i class="fa-solid fa-certificate"></i> Licence #465790</span>
-            <span class="pill"><i class="fa-solid fa-ticket"></i> 995 tickets total</span>
-            <span class="pill"><i class="fa-solid fa-calendar-day"></i> Draw: Dec 26, 2025</span>
           </div>
         </div>
 
@@ -445,14 +529,14 @@ img{max-width:100%; display:block}
       <div class="container">
         <div class="section-head">
           <p class="section-eyebrow">Grand prize</p>
-          <h2 class="section-title">Limited tickets. One epic $3,780 prize.</h2>
-          <p class="section-sub">A vivid, licensed raffle experience —built to stand out and easy to enter.</p>
+          <h2 class="section-title">Limited tickets. One epic $4,725 prize.</h2>
+          <p class="section-sub">A vivid, licensed raffle experience — built to stand out and easy to enter.</p>
         </div>
 
         <div class="grand-prize-wrap">
           <article class="grand-card">
             <h3>Prize overview</h3>
-            <p class="value">$3,780 value</p>
+            <p class="value">$4,725 value</p>
             <p class="sub">Only 995 tickets • $10 each • Licence #465790</p>
             <p class="pitch">Think flagship gear, premium apparel, and field-ready accessories curated for a single lucky winner.</p>
             <div class="cta-stack">
@@ -506,7 +590,7 @@ img{max-width:100%; display:block}
           </article>
           <article class="package-card">
             <div class="package-name">3. Win the prize</div>
-            <p class="package-note">One winner receives the $3,780 package.</p>
+            <p class="package-note">One winner receives the $4,725 package.</p>
           </article>
           <article class="package-card">
             <div class="package-name">4. Support conservation</div>
@@ -561,7 +645,7 @@ img{max-width:100%; display:block}
           <div class="rg-card">
             <div class="rg-icon"><i class="fa-solid fa-shield-halved"></i></div>
             <h3>Licence &amp; limits</h3>
-            <p>Licence #465790 • 995 tickets • $10 each • Draw: Dec 26, 2025 • One $3,780 winner.</p>
+            <p>Licence #465790 • 995 tickets • $10 each • Draw: Dec 26, 2025 • One $4,725 winner.</p>
             <span class="rg-badge-pill"><i class="fa-solid fa-scale-balanced"></i> Posted odds: max 1 in 995</span>
           </div>
           <div class="rg-card">
