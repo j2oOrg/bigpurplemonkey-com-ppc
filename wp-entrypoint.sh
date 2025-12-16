@@ -13,11 +13,11 @@ if [ -f "$CONFIG_FILE" ]; then
     # shellcheck disable=SC1090
     . "$CONFIG_FILE"
 fi
-SITE_TITLE=${WP_SITE_TITLE:-${SITE_TITLE:-bigpurplemonkey}}
+SITE_TITLE=${WP_SITE_TITLE:-${SITE_TITLE:-zlottour}}
 ADMIN_USER=${WP_ADMIN_USER:-${ADMIN_USER:-admin}}
 ADMIN_PASSWORD=${WP_ADMIN_PASSWORD:-${ADMIN_PASSWORD:-changeme}}
 ADMIN_EMAIL=${WP_ADMIN_EMAIL:-${ADMIN_EMAIL:-admin@example.com}}
-SITE_URL=${WP_SITE_URL:-${SITE_URL:-https://bigpurplemonkey.com}}
+SITE_URL=${WP_SITE_URL:-${SITE_URL:-https://zlottour.com}}
 PLUGIN_DROP_DIR=${WP_PLUGIN_DROP_DIR:-/usr/src/wordpress/wp-plugins}
 
 # Initialize MariaDB data directory on first run.
@@ -88,28 +88,38 @@ if ! wp --path=/var/www/html --allow-root core is-installed; then
         --skip-email
 fi
 
-# Activate the bundled bigpurplemonkey theme by default (idempotent).
-if wp --path=/var/www/html --allow-root theme is-installed bigpurplemonkey; then
-    wp --path=/var/www/html --allow-root theme activate bigpurplemonkey
+# Activate the bundled theme by default (idempotent).
+THEME_SLUG=${WP_THEME_SLUG:-raffle}
+if wp --path=/var/www/html --allow-root theme is-installed "${THEME_SLUG}"; then
+    wp --path=/var/www/html --allow-root theme activate "${THEME_SLUG}" || true
+    # Belt-and-suspenders: set template/style options to the active slug to avoid fallback to TwentyTwenty-*.
+    wp --path=/var/www/html --allow-root option set template "${THEME_SLUG}" || true
+    wp --path=/var/www/html --allow-root option set stylesheet "${THEME_SLUG}" || true
 fi
+
+# Ensure key pages exist and have the correct templates.
+ensure_page() {
+  local slug="$1"
+  local title="$2"
+  local template="$3"
+  local id
+  id=$(wp --path=/var/www/html --allow-root post list --post_type=page --name="$slug" --format=ids)
+  if [ -z "$id" ]; then
+    id=$(wp --path=/var/www/html --allow-root post create --post_type=page --post_status=publish --post_title="$title" --post_name="$slug" --porcelain)
+  fi
+  if [ -n "$template" ]; then
+    wp --path=/var/www/html --allow-root post meta update "$id" _wp_page_template "$template" || true
+  fi
+}
+
+ensure_page "rules" "Rules" "page-rules.php"
+ensure_page "faq" "FAQ" "page-faq.php"
+ensure_page "privacy-policy" "Privacy Policy" "page-privacy-policy.php"
 
 # Ensure site/home URLs are aligned with SITE_URL to avoid mixed-content issues.
 if [ -n "${SITE_URL}" ]; then
     wp --path=/var/www/html --allow-root option update siteurl "${SITE_URL}" || true
     wp --path=/var/www/html --allow-root option update home "${SITE_URL}" || true
-fi
-
-# Install and activate FileBird plugin (idempotent, overridable).
-if [ "${WP_INSTALL_FILEBIRD:-1}" = "1" ]; then
-    echo "Ensuring FileBird plugin is installed..."
-    if ! wp --path=/var/www/html --allow-root plugin is-installed filebird; then
-        if ! wp --path=/var/www/html --allow-root plugin install filebird --activate; then
-            echo "Warning: FileBird plugin installation failed; continuing without it." >&2
-        fi
-    else
-        wp --path=/var/www/html --allow-root plugin activate filebird || \
-            echo "Warning: could not activate FileBird plugin." >&2
-    fi
 fi
 
 # Install/activate plugins dropped into ${PLUGIN_DROP_DIR} (zip files or folders).
@@ -133,6 +143,22 @@ if [ -d "${PLUGIN_DROP_DIR}" ]; then
     done
     shopt -u nullglob
 fi
+
+
+# Install and activate FileBird plugin (idempotent, overridable).
+if [ "${WP_INSTALL_FILEBIRD:-1}" = "1" ]; then
+    echo "Ensuring FileBird plugin is installed..."
+    if ! wp --path=/var/www/html --allow-root plugin is-installed filebird; then
+        if ! wp --path=/var/www/html --allow-root plugin install filebird --activate; then
+            echo "Warning: FileBird plugin installation failed; continuing without it." >&2
+        fi
+    else
+        wp --path=/var/www/html --allow-root plugin activate filebird || \
+            echo "Warning: could not activate FileBird plugin." >&2
+    fi
+fi
+
+
 
 # Hand off to the original WordPress entrypoint (starts Apache/PHP).
 exec docker-entrypoint.sh "$@"
