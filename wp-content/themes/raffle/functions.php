@@ -17,7 +17,7 @@ add_action('wp_enqueue_scripts', function () {
 
     wp_enqueue_style(
         'bigpurplemonkey-google-fonts',
-        'https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap',
+        'https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Baloo+2:wght@600;700;800&display=swap',
         [],
         null
     );
@@ -25,7 +25,7 @@ add_action('wp_enqueue_scripts', function () {
     if (is_front_page()) {
         wp_enqueue_style(
             'bigpurplemonkey-home-fonts',
-            'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Bebas+Neue&display=swap',
+            'https://fonts.googleapis.com/css2?family=Baloo+2:wght@700;800&family=Nunito:wght@700;800&display=swap',
             [],
             null
         );

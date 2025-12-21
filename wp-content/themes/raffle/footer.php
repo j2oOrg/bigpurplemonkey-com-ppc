@@ -20,7 +20,7 @@
         Issued by Alberta Gaming, Liquor &amp; Cannabis
       </p>
       <p class="section-sub-p0c6" style="margin:0.5rem 0 0;">
-        Draw Date: February 25, 2026<br>
+        Draw Date: March 30, 2026<br>
         Prize: 50% of ticket sales
       </p>
       <p class="section-sub-p0c6" style="margin:0.5rem 0 0;">

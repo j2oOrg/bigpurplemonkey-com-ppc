@@ -12,7 +12,7 @@ get_header();
       <p class="eyebrow-t8k9">Official Rules</p>
       <h1 class="section-title-m3y2" style="font-size:2.6rem; margin-bottom:0.35rem;">Rules &amp; Regulations</h1>
         <p class="section-sub-p0c6" style="max-width:860px;">Official terms and conditions for the bigpurplemonkey Raffle. Operator / Licensee: bigpurplemonkey Association Foundation. bigpurplemonkey is the campaign/brand name only. Participation is limited to individuals 18+ physically located in Alberta at time of purchase.</p>
-      <p class="rules-meta-w5v1">Operator / Licensee: bigpurplemonkey Association Foundation • AGLC Raffle Licence #662961 • 995 tickets • $10 per ticket • Draw: February 25, 2026</p>
+      <p class="rules-meta-w5v1">Operator / Licensee: bigpurplemonkey Association Foundation • AGLC Raffle Licence #662961 • 995 tickets • $10 per ticket • Draw: March 30, 2026</p>
     </div>
   </section>
 
@@ -51,7 +51,7 @@ get_header();
 
       <div class="rules-card-m5k1">
         <h2>Draw Details</h2>
-        <p>The draw will be conducted on February 25, 2026 at Fort Edmonton Park, Edmonton.</p>
+        <p>The draw will be conducted on March 30, 2026 at Fort Edmonton Park, Edmonton.</p>
       </div>
 
       <div class="rules-card-m5k1">
