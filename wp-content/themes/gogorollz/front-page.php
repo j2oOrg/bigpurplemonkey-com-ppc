@@ -125,7 +125,7 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
       <div class="section-head">
         <p class="section-eyebrow">Your impact</p>
         <h2 class="section-title">Tickets that support conservation</h2>
-        <p class="section-sub">Every purchase echoes theraffle spirit—backing wildlife and outdoor heritage.</p>
+        <p class="section-sub">Every purchase echoes the raffle spirit—backing wildlife and outdoor heritage.</p>
       </div>
       <div class="package-grid">
         <article class="package-card">

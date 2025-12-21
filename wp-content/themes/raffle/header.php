@@ -3,7 +3,7 @@
 <head>
   <meta charset="<?php bloginfo('charset'); ?>">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="bigpurplemonkey Association Foundation 50/50 raffle — 995 tickets at $10 — draw March 30, 2026 in Edmonton — winner receives 50% of ticket sales — Alberta only, 18+.">
+  <meta name="description" content="Bigpurplemonkey wildlife foundation 50/50 raffle — 995 tickets at $10 — draw March 30, 2026 in Edmonton — winner receives 50% of ticket sales — Alberta only, 18+.">
   <link rel="icon" href="<?php echo esc_url( home_url('/favicon.ico') ); ?>">
   <link rel="apple-touch-icon" sizes="180x180" href="<?php echo esc_url( home_url('/apple-touch-icon.png') ); ?>">
   <?php wp_head(); ?>

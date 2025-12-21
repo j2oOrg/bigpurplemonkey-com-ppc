@@ -48,14 +48,14 @@ get_header();
     <section class="rules-hero" id="rules">
       <div class="rules-card">
         <div class="rules-pill-row">
-          <span class="rules-pill accent"><i class="fa-solid fa-certificate"></i> AGLC Licence #662961</span>
+          <span class="rules-pill accent"><i class="fa-solid fa-certificate"></i> AGLC Licence #662967</span>
           <span class="rules-pill"><i class="fa-solid fa-shield-halved"></i> Licensed charitable raffle</span>
         </div>
         <p class="eyebrow-t8k9" style="margin:0 0 0.35rem;">Official Rules</p>
         <h1 class="rules-title">Rules &amp; Regulations</h1>
-        <p class="rules-sub">Official terms for the bigpurplemonkey Association Foundation 50/50 raffle. Participation is limited to individuals 18+ physically located in Alberta at time of purchase.</p>
-        <p class="rules-meta">Operator / Licensee: bigpurplemonkey Association Foundation • AGLC Raffle Licence #662961 • 995 tickets • $10 per ticket • Draw: March 30, 2026</p>
-        <p class="rules-license">bigpurplemonkey is the campaign/brand name only and is not the operator; all raffle operations are run by the bigpurplemonkey Association Foundation under AGLC oversight.</p>
+        <p class="rules-sub">Official terms for the Bigpurplemonkey wildlife foundation 50/50 raffle. Participation is limited to individuals 18+ physically located in Alberta at time of purchase.</p>
+        <p class="rules-meta">Operator / Licensee: Bigpurplemonkey wildlife foundation • AGLC Raffle Licence #662967 • 995 tickets • $10 per ticket • Draw: March 30, 2026</p>
+        <p class="rules-license">bigpurplemonkey is the campaign/brand name only and is not the operator; all raffle operations are run by the Bigpurplemonkey wildlife foundation under AGLC oversight.</p>
       </div>
       <div class="rules-card">
         <div class="facts-grid">
@@ -73,7 +73,7 @@ get_header();
       <div class="rules-stack">
         <div class="rule-block">
           <h3>Rules of play</h3>
-          <p>This raffle is conducted under AGLC Raffle Licence #662961. One winner receives 50% of total ticket sales.</p>
+          <p>This raffle is conducted under AGLC Raffle Licence #662967. One winner receives 50% of total ticket sales.</p>
         </div>
         <div class="rule-block">
           <h3>Eligibility</h3>
