@@ -4,6 +4,14 @@
  */
 get_header();
 $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
+
+$front_page_css_path = get_theme_file_path('/assets/css/front-page.css');
+if (file_exists($front_page_css_path)) {
+    $inline_css = file_get_contents($front_page_css_path);
+    if ($inline_css !== false) {
+        echo '<style id="raffle-inline-front-page">' . $inline_css . '</style>';
+    }
+}
 ?>
 
 <main>
