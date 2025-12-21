@@ -53,9 +53,9 @@ get_header();
         </div>
         <p class="eyebrow-t8k9" style="margin:0 0 0.35rem;">Official Rules</p>
         <h1 class="rules-title">Rules &amp; Regulations</h1>
-        <p class="rules-sub">Official terms for the Bigpurplemonkey wildlife foundation 50/50 raffle. Participation is limited to individuals 18+ physically located in Alberta at time of purchase.</p>
-        <p class="rules-meta">Operator / Licensee: Bigpurplemonkey wildlife foundation • AGLC Raffle Licence #662967 • 995 tickets • $10 per ticket • Draw: March 30, 2026</p>
-        <p class="rules-license">bigpurplemonkey is the campaign/brand name only and is not the operator; all raffle operations are run by the Bigpurplemonkey wildlife foundation under AGLC oversight.</p>
+        <p class="rules-sub">Official terms for the bigpurplemonkey wildlife foundation 50/50 raffle. Participation is limited to individuals 18+ physically located in Alberta at time of purchase.</p>
+        <p class="rules-meta">Operator / Licensee: bigpurplemonkey wildlife foundation • AGLC Raffle Licence #662967 • 995 tickets • $10 per ticket • Draw: March 30, 2026</p>
+        <p class="rules-license">bigpurplemonkey is the campaign/brand name only; the foundation operates the raffle under AGLC oversight.</p>
       </div>
       <div class="rules-card">
         <div class="facts-grid">

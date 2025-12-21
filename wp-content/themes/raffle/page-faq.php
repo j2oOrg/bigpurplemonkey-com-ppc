@@ -44,9 +44,9 @@ get_header();
         </div>
         <p class="eyebrow-t8k9" style="margin:0 0 0.35rem;">Need answers?</p>
         <h1 class="faq-hero-title">Frequently Asked Questions</h1>
-        <p class="faq-sub">Quick, plain-language answers for the Bigpurplemonkey wildlife foundation 50/50 raffle.</p>
-        <p class="faq-meta">Operator / Licensee: Bigpurplemonkey wildlife foundation • AGLC Raffle Licence #662967 • Draw: Mar 30, 2026 • 995 tickets at $10</p>
-        <p class="faq-license">bigpurplemonkey is the campaign/brand name only and is not the operator; all raffle operations are run by the Bigpurplemonkey wildlife foundation under AGLC oversight.</p>
+        <p class="faq-sub">Quick, plain-language answers for the bigpurplemonkey wildlife foundation 50/50 raffle.</p>
+        <p class="faq-meta">Operator / Licensee: bigpurplemonkey wildlife foundation • AGLC Raffle Licence #662967 • Draw: Mar 30, 2026 • 995 tickets at $10</p>
+        <p class="faq-license">bigpurplemonkey is the campaign/brand name; the foundation runs the raffle under AGLC oversight.</p>
       </div>
       <div class="faq-hero-card">
         <div class="faq-info-rail">
@@ -84,7 +84,7 @@ get_header();
         </article>
         <article class="faq-card-remix">
           <h3>What exactly is the prize?</h3>
-          <p>One grand prize package valued at $3,780 retail. It’s awarded as described—non-transferable and no cash alternative.</p>
+          <p>One prize equal to 50% of total ticket sales (currently estimated at $3,780 based on sales to date). Prize is awarded as described and is not transferable.</p>
         </article>
         <article class="faq-card-remix">
           <h3>What are my odds of winning?</h3>

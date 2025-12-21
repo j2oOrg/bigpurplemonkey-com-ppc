@@ -23,13 +23,13 @@ if (file_exists($front_page_css_path)) {
           <span class="pill pill-glass"><i class="fa-solid fa-circle-check"></i> Licensed charitable raffle</span>
         </div>
         <p class="eyebrow">Current licensed draw</p>
-        <h1 class="hero-title">Bigpurplemonkey wildlife foundation 50/50 Raffle</h1>
+        <h1 class="hero-title">bigpurplemonkey wildlife foundation 50/50 Raffle</h1>
         <div class="hero-prize-stack">
-          <span class="hero-prize">$3,780 Current Licensed Draw Amount</span>
-          <span class="hero-prize-sub">(50% of ticket sales to date, per AGLC Raffle Licence #662967)</span>
+          <span class="hero-prize">Prize amount equals 50% of ticket sales</span>
+          <span class="hero-prize-sub">(Current licensed draw amount estimated at $3,780 under AGLC Raffle Licence #662967)</span>
         </div>
-        <p class="hero-sub">Licensed charitable raffle operated under AGLC Raffle Licence #662967. Issued by Alberta Gaming, Liquor &amp; Cannabis.</p>
-        <p class="hero-sub">Winner receives 50% of ticket sales for this licensed draw.</p>
+        <p class="hero-sub">This licensed 50/50 is regulated under AGLC Raffle Licence #662967 by Alberta Gaming, Liquor &amp; Cannabis.</p>
+        <p class="hero-sub">The single winner is paid 50% of total ticket sales for this draw.</p>
 
         <div class="stat-rail">
           <div class="stat-chip"><i class="fa-solid fa-ticket"></i> 995 tickets • $10 each</div>
@@ -38,14 +38,14 @@ if (file_exists($front_page_css_path)) {
         </div>
 
         <div class="hero-cta hero-cta-remix">
-          <a href="#" class="btn fun" data-signup-btn><i class="fa-solid fa-bolt"></i> Get Tickets Now</a>
-          <a href="#how" class="btn ghost">How it works</a>
-          <a href="<?php echo esc_url( home_url('/rules') ); ?>" class="btn ghost secondary">View Rules</a>
+          <a href="#" class="btn fun" data-signup-btn><i class="fa-solid fa-bolt"></i> Enter Licensed Draw</a>
+          <a href="#how" class="btn ghost">Learn How It Works</a>
+          <a href="<?php echo esc_url( home_url('/rules') ); ?>" class="btn ghost secondary">Participate in Licensed Event</a>
         </div>
 
         <div class="license-card">
           <div class="license-head">Licence assurance</div>
-          <p class="license-copy">Operator / Licensee: Bigpurplemonkey wildlife foundation • Authority: Alberta Gaming, Liquor &amp; Cannabis (AGLC). bigpurplemonkey is the campaign/brand name only and is not the operator.</p>
+          <p class="license-copy">Operator / Licensee: bigpurplemonkey wildlife foundation (AGLC Licence #662967). bigpurplemonkey is the campaign name; the foundation operates the raffle under AGLC oversight.</p>
           <p class="license-copy">Must be 18+ and physically located in Alberta at time of purchase.</p>
         </div>
       </div>
@@ -63,11 +63,11 @@ if (file_exists($front_page_css_path)) {
             </div>
             <div class="time-grid">
               <div class="time-chip"><span id="countdownHours">00</span><small>Hours</small></div>
-              <div class="time-chip"><span id="countdownMinutes">00</span><small>Minutes</small></div>
-              <div class="time-chip"><span id="countdownSeconds">00</span><small>Seconds</small></div>
-            </div>
-          </div>
-          <div class="countdown-track">
+          <div class="time-chip"><span id="countdownMinutes">00</span><small>Minutes</small></div>
+          <div class="time-chip"><span id="countdownSeconds">00</span><small>Seconds</small></div>
+        </div>
+      </div>
+      <div class="countdown-track">
             <div class="track-fill" id="countdownFill"></div>
           </div>
           <p class="countdown-meta">Draw date: March 30, 2026 • AGLC Licence #662967 • Draw location: Fort Edmonton Park, Edmonton • One winner receives 50% of ticket sales.</p>
@@ -76,9 +76,34 @@ if (file_exists($front_page_css_path)) {
         <div class="hero-visual hero-card-lift">
           <div class="halo"></div>
           <img src="<?php echo esc_url( $hero_image ); ?>" alt="bigpurplemonkey Raffle hero">
-          <span class="hero-label"><i class="fa-solid fa-circle-info"></i> Real cash prizes</span>
+          <span class="hero-label"><i class="fa-solid fa-circle-info"></i> Licensed prize pool</span>
         </div>
       </div>
+    </div>
+  </section>
+
+  <section class="raffle-highlights" id="about">
+    <div class="container highlight-grid">
+      <article class="highlight-card glass">
+        <p class="section-eyebrow">Our mission</p>
+        <h2 class="section-title">About bigpurplemonkey wildlife foundation</h2>
+        <p class="section-sub">We fund wildlife habitat stewardship and outdoor heritage programs through regulated 50/50 fundraising.</p>
+        <p class="package-note">Every licensed draw is operated by the foundation under AGLC oversight, with transparent reporting and a single 50% prize payout to the winner.</p>
+      </article>
+      <article class="highlight-card">
+        <p class="section-eyebrow">What participation supports</p>
+        <ul class="detail-list">
+          <li>Habitat stewardship and restoration projects.</li>
+          <li>Outdoor heritage education and access initiatives.</li>
+          <li>Transparent, licensed fundraising aligned to AGLC requirements.</li>
+        </ul>
+        <a href="<?php echo esc_url( home_url('/faq') ); ?>" class="btn ghost">Learn how funds are used</a>
+      </article>
+      <article class="highlight-card">
+        <p class="section-eyebrow">Participation snapshot</p>
+        <p class="package-note">995 tickets at $10 • One winner receives 50% of sales • Draw: March 30, 2026 • AGLC Licence #662967.</p>
+        <p class="package-note">Requirement: 18+ and physically in Alberta at purchase time.</p>
+      </article>
     </div>
   </section>
 
@@ -93,16 +118,16 @@ if (file_exists($front_page_css_path)) {
           <li>Draw date: March 30, 2026</li>
           <li>Draw location: Fort Edmonton Park, Edmonton</li>
         </ul>
-        <p class="microcopy">AGLC Raffle Licence #662967. Winner receives 50% of ticket sales for this licensed draw.</p>
+        <p class="microcopy">Authorized under AGLC Raffle Licence #662967. One winner receives 50% of total ticket sales.</p>
       </article>
 
       <article class="highlight-card">
         <p class="section-eyebrow">Prize overview</p>
-        <h2 class="section-title">One epic $3,780 prize</h2>
+        <h2 class="section-title">Licensed prize pool</h2>
         <p class="section-sub">Only 995 tickets • $10 each • Licensed &amp; posted.</p>
-        <p class="pitch">Think flagship gear, premium apparel, and field-ready accessories curated for a single lucky winner.</p>
+        <p class="pitch">One winner receives 50% of ticket sales (current estimate $3,780 based on sales to date).</p>
         <div class="cta-stack">
-          <a href="#" class="btn fun" data-signup-btn><i class="fa-solid fa-bolt"></i> Grab my ticket</a>
+          <a href="#" class="btn fun" data-signup-btn><i class="fa-solid fa-bolt"></i> Enter Licensed Draw</a>
           <span class="pill accent"><i class="fa-solid fa-clock"></i> Draw: March 30, 2026</span>
         </div>
       </article>
@@ -121,7 +146,7 @@ if (file_exists($front_page_css_path)) {
         <div class="stat-box alt">
           <p class="label">Winner count</p>
           <p class="num">1</p>
-          <p class="hint">One grand prize package</p>
+          <p class="hint">One 50/50 prize (50% of ticket sales)</p>
         </div>
         <div class="stat-box alt">
           <p class="label">Draw date</p>
@@ -137,7 +162,7 @@ if (file_exists($front_page_css_path)) {
       <div class="section-head">
         <p class="section-eyebrow">How it works</p>
         <h2 class="section-title">Simple, exciting, and licensed</h2>
-        <p class="section-sub">Purchase, wait for the draw, and support conservation.</p>
+        <p class="section-sub">Purchase, wait for the draw, and fuel wildlife habitat work.</p>
       </div>
 
       <div class="step-track">
@@ -158,15 +183,15 @@ if (file_exists($front_page_css_path)) {
         <div class="step-card">
           <div class="step-id">3</div>
           <div>
-            <p class="package-name">Win the prize</p>
-            <p class="package-note">One winner receives the $3,780 package.</p>
+          <p class="package-name">Win the 50/50 payout</p>
+          <p class="package-note">One winner receives 50% of ticket sales (current estimate $3,780).</p>
           </div>
         </div>
         <div class="step-card">
           <div class="step-id">4</div>
           <div>
-            <p class="package-name">Support conservation</p>
-            <p class="package-note">Proceeds align with wildlife and outdoor heritage causes.</p>
+            <p class="package-name">Support wildlife projects</p>
+            <p class="package-note">Proceeds back habitat stewardship and outdoor heritage programs.</p>
           </div>
         </div>
       </div>
@@ -177,11 +202,11 @@ if (file_exists($front_page_css_path)) {
     <div class="container impact-grid">
       <div>
         <p class="section-eyebrow">Your impact</p>
-        <h2 class="section-title">Tickets that support conservation</h2>
-        <p class="section-sub">Every purchase echoes the raffle spirit—backing wildlife and outdoor heritage.</p>
+        <h2 class="section-title">Tickets that back wildlife work</h2>
+        <p class="section-sub">Every purchase supports habitat stewardship and outdoor heritage programs.</p>
         <div class="impact-card">
           <p class="package-note">
-            Every ticket helps fund wildlife and habitat initiatives similar to the Pheasant Release Program. Together we keep ecosystems healthy and outdoor experiences thriving.
+            Every ticket helps fund wildlife and habitat initiatives tied to bigpurplemonkey wildlife foundation’s mission. Together we keep ecosystems healthy and outdoor experiences thriving.
           </p>
           <a href="<?php echo esc_url( home_url('/faq') ); ?>" class="btn primary">Ask about the mission</a>
         </div>
@@ -189,7 +214,7 @@ if (file_exists($front_page_css_path)) {
       <div class="impact-card operator-card">
         <p class="section-eyebrow" style="margin-bottom:0.35rem;">Operator</p>
         <p class="section-sub" style="margin:0;">Operated by:<br>
-        Bigpurplemonkey wildlife foundation<br>
+        bigpurplemonkey wildlife foundation<br>
         9111-39 Avenue, Edmonton, AB T6E5Y2<br>
         Licensed charitable organization in Alberta</p>
         <p class="section-sub" style="margin:0.6rem 0 0;">Advertising and marketing services provided by:<br>
@@ -216,28 +241,28 @@ if (file_exists($front_page_css_path)) {
   <section class="regulatory" id="responsible">
     <div class="container">
       <div class="section-head">
-        <p class="section-eyebrow">Compliance</p>
+        <p class="section-eyebrow">Licensing &amp; participation rules</p>
         <h2 class="section-title">Licensed &amp; regulated</h2>
-        <p class="section-sub">Operator / Licensee: Bigpurplemonkey wildlife foundation • AGLC Raffle Licence #662967 • Authority: Alberta Gaming, Liquor &amp; Cannabis (AGLC). bigpurplemonkey is the campaign/brand name only.</p>
+        <p class="section-sub">Operator / Licensee: bigpurplemonkey wildlife foundation • AGLC Raffle Licence #662967 • Oversight: Alberta Gaming, Liquor &amp; Cannabis (AGLC). Participation requires 18+ and physical presence in Alberta.</p>
       </div>
 
       <div class="rg-grid">
         <div class="rg-card">
           <div class="rg-icon"><i class="fa-solid fa-shield-halved"></i></div>
-          <h3>Licence &amp; limits</h3>
-          <p>Operator / Licensee: Bigpurplemonkey wildlife foundation • AGLC Raffle Licence #662967 • 995 tickets • $10 each • Draw: March 30, 2026 • One $3,780 winner.</p>
+          <h3>Licensing &amp; limits</h3>
+          <p>Operator / Licensee: bigpurplemonkey wildlife foundation • AGLC Raffle Licence #662967 • 995 tickets at $10 • Draw: March 30, 2026 • One winner paid 50% of ticket sales.</p>
           <span class="rg-badge-pill"><i class="fa-solid fa-scale-balanced"></i> Posted odds: max 1 in 995</span>
         </div>
         <div class="rg-card">
           <div class="rg-icon"><i class="fa-solid fa-heart-pulse"></i></div>
-          <h3>Participate responsibly</h3>
-          <p>18+ only. Set limits, keep raffle participation balanced, and take breaks. We promote balance over impulse.</p>
+          <h3>18+ and Alberta location</h3>
+          <p>Participation requires being 18+ and physically located in Alberta at purchase time. Set limits and keep participation balanced.</p>
           <a class="rg-cta" href="https://www.albertahealthservices.ca" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i> Responsible participation resources</a>
         </div>
         <div class="rg-card">
           <div class="rg-icon"><i class="fa-solid fa-hands-holding-child"></i></div>
-          <h3>Need support?</h3>
-          <p>Helpline: <a href="tel:18663322322" class="link-accent">1-866-332-2322</a> • Alberta Health Services Addiction Helpline.</p>
+          <h3>Support resources</h3>
+          <p>Support resource helpline: <a href="tel:18663322322" class="link-accent">1-866-332-2322</a> (Alberta Health Services Addiction Helpline).</p>
           <ul class="res-links">
             <li><a href="https://gamesenseab.ca/" target="_blank" rel="noopener noreferrer">GameSense Alberta</a></li>
             <li><a href="https://www.gambleaware.org/" target="_blank" rel="noopener noreferrer">BeGambleAware</a></li>

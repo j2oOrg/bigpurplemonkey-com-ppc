@@ -15,7 +15,7 @@
 
     <div class="footer-note-w0e3" style="text-align:center;">
       <p class="section-sub-p0c6" style="margin:0;">
-        Bigpurplemonkey wildlife foundation<br>
+        bigpurplemonkey wildlife foundation<br>
         AGLC Raffle Licence #662967<br>
         Issued by Alberta Gaming, Liquor &amp; Cannabis
       </p>
