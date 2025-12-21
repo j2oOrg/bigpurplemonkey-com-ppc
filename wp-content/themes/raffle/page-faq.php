@@ -44,8 +44,8 @@ get_header();
         </div>
         <p class="eyebrow-t8k9" style="margin:0 0 0.35rem;">Need answers?</p>
         <h1 class="faq-hero-title">Frequently Asked Questions</h1>
-        <p class="faq-sub">Quick, plain-language answers for the bigpurplemonkey wildlife foundation 50/50 raffle.</p>
-        <p class="faq-meta">Operator / Licensee: bigpurplemonkey wildlife foundation • AGLC Raffle Licence #662967 • Draw: Mar 30, 2026 • 995 tickets at $10</p>
+        <p class="faq-sub">Quick, plain-language answers for the Bigpurplemonkey wildlife foundation 50/50 raffle.</p>
+        <p class="faq-meta">Operator / Licensee: Bigpurplemonkey wildlife foundation • AGLC Raffle Licence #662967 • Draw: Mar 30, 2026 • 995 tickets at $10</p>
         <p class="faq-license">bigpurplemonkey is the campaign/brand name; the foundation runs the raffle under AGLC oversight.</p>
       </div>
       <div class="faq-hero-card">

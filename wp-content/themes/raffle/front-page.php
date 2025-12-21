@@ -23,7 +23,7 @@ if (file_exists($front_page_css_path)) {
           <span class="pill pill-glass"><i class="fa-solid fa-circle-check"></i> Licensed charitable raffle</span>
         </div>
         <p class="eyebrow">Current licensed draw</p>
-        <h1 class="hero-title">bigpurplemonkey wildlife foundation 50/50 Raffle</h1>
+        <h1 class="hero-title">Bigpurplemonkey wildlife foundation 50/50 Raffle</h1>
         <div class="hero-prize-stack">
           <span class="hero-prize">Prize amount equals 50% of ticket sales</span>
           <span class="hero-prize-sub">(Current licensed draw amount estimated at $3,780 under AGLC Raffle Licence #662967)</span>
@@ -45,7 +45,7 @@ if (file_exists($front_page_css_path)) {
 
         <div class="license-card">
           <div class="license-head">Licence assurance</div>
-          <p class="license-copy">Operator / Licensee: bigpurplemonkey wildlife foundation (AGLC Licence #662967). bigpurplemonkey is the campaign name; the foundation operates the raffle under AGLC oversight.</p>
+          <p class="license-copy">Operator / Licensee: Bigpurplemonkey wildlife foundation (AGLC Licence #662967). bigpurplemonkey is the campaign name; the foundation operates the raffle under AGLC oversight.</p>
           <p class="license-copy">Must be 18+ and physically located in Alberta at time of purchase.</p>
         </div>
       </div>
@@ -86,7 +86,7 @@ if (file_exists($front_page_css_path)) {
     <div class="container highlight-grid">
       <article class="highlight-card glass">
         <p class="section-eyebrow">Our mission</p>
-        <h2 class="section-title">About bigpurplemonkey wildlife foundation</h2>
+        <h2 class="section-title">About Bigpurplemonkey wildlife foundation</h2>
         <p class="section-sub">We fund wildlife habitat stewardship and outdoor heritage programs through regulated 50/50 fundraising.</p>
         <p class="package-note">Every licensed draw is operated by the foundation under AGLC oversight, with transparent reporting and a single 50% prize payout to the winner.</p>
       </article>
@@ -206,7 +206,7 @@ if (file_exists($front_page_css_path)) {
         <p class="section-sub">Every purchase supports habitat stewardship and outdoor heritage programs.</p>
         <div class="impact-card">
           <p class="package-note">
-            Every ticket helps fund wildlife and habitat initiatives tied to bigpurplemonkey wildlife foundation’s mission. Together we keep ecosystems healthy and outdoor experiences thriving.
+            Every ticket helps fund wildlife and habitat initiatives tied to Bigpurplemonkey wildlife foundation’s mission. Together we keep ecosystems healthy and outdoor experiences thriving.
           </p>
           <a href="<?php echo esc_url( home_url('/faq') ); ?>" class="btn primary">Ask about the mission</a>
         </div>
@@ -214,7 +214,7 @@ if (file_exists($front_page_css_path)) {
       <div class="impact-card operator-card">
         <p class="section-eyebrow" style="margin-bottom:0.35rem;">Operator</p>
         <p class="section-sub" style="margin:0;">Operated by:<br>
-        bigpurplemonkey wildlife foundation<br>
+        Bigpurplemonkey wildlife foundation<br>
         9111-39 Avenue, Edmonton, AB T6E5Y2<br>
         Licensed charitable organization in Alberta</p>
         <p class="section-sub" style="margin:0.6rem 0 0;">Advertising and marketing services provided by:<br>
@@ -243,14 +243,14 @@ if (file_exists($front_page_css_path)) {
       <div class="section-head">
         <p class="section-eyebrow">Licensing &amp; participation rules</p>
         <h2 class="section-title">Licensed &amp; regulated</h2>
-        <p class="section-sub">Operator / Licensee: bigpurplemonkey wildlife foundation • AGLC Raffle Licence #662967 • Oversight: Alberta Gaming, Liquor &amp; Cannabis (AGLC). Participation requires 18+ and physical presence in Alberta.</p>
+        <p class="section-sub">Operator / Licensee: Bigpurplemonkey wildlife foundation • AGLC Raffle Licence #662967 • Oversight: Alberta Gaming, Liquor &amp; Cannabis (AGLC). Participation requires 18+ and physical presence in Alberta.</p>
       </div>
 
       <div class="rg-grid">
         <div class="rg-card">
           <div class="rg-icon"><i class="fa-solid fa-shield-halved"></i></div>
           <h3>Licensing &amp; limits</h3>
-          <p>Operator / Licensee: bigpurplemonkey wildlife foundation • AGLC Raffle Licence #662967 • 995 tickets at $10 • Draw: March 30, 2026 • One winner paid 50% of ticket sales.</p>
+          <p>Operator / Licensee: Bigpurplemonkey wildlife foundation • AGLC Raffle Licence #662967 • 995 tickets at $10 • Draw: March 30, 2026 • One winner paid 50% of ticket sales.</p>
           <span class="rg-badge-pill"><i class="fa-solid fa-scale-balanced"></i> Posted odds: max 1 in 995</span>
         </div>
         <div class="rg-card">
