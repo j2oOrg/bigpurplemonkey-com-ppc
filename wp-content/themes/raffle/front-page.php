@@ -26,7 +26,7 @@ if (file_exists($front_page_css_path)) {
         <h1 class="hero-title">Bigpurplemonkey wildlife foundation 50/50 Raffle</h1>
         <div class="hero-prize-stack">
           <span class="hero-prize">Prize amount equals 50% of ticket sales</span>
-          <span class="hero-prize-sub">(Current licensed draw amount estimated at $3,780 under AGLC Raffle Licence #662967)</span>
+          <span class="hero-prize-sub">(Current licensed draw amount estimated at $4,612 under AGLC Raffle Licence #662967)</span>
         </div>
         <p class="hero-sub">This licensed 50/50 is regulated under AGLC Raffle Licence #662967 by Alberta Gaming, Liquor &amp; Cannabis.</p>
         <p class="hero-sub">The single winner is paid 50% of total ticket sales for this draw.</p>
@@ -125,7 +125,7 @@ if (file_exists($front_page_css_path)) {
         <p class="section-eyebrow">Prize overview</p>
         <h2 class="section-title">Licensed prize pool</h2>
         <p class="section-sub">Only 995 tickets • $10 each • Licensed &amp; posted.</p>
-        <p class="pitch">One winner receives 50% of ticket sales (current estimate $3,780 based on sales to date).</p>
+        <p class="pitch">One winner receives 50% of ticket sales (current estimate $4,612 based on sales to date).</p>
         <div class="cta-stack">
           <a href="#" class="btn fun" data-signup-btn><i class="fa-solid fa-bolt"></i> Enter Licensed Draw</a>
           <span class="pill accent"><i class="fa-solid fa-clock"></i> Draw: March 30, 2026</span>
@@ -184,7 +184,7 @@ if (file_exists($front_page_css_path)) {
           <div class="step-id">3</div>
           <div>
           <p class="package-name">Win the 50/50 payout</p>
-          <p class="package-note">One winner receives 50% of ticket sales (current estimate $3,780).</p>
+            <p class="package-note">One winner receives 50% of ticket sales (current estimate $4,612).</p>
           </div>
         </div>
         <div class="step-card">

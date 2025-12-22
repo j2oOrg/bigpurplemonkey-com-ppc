@@ -84,7 +84,7 @@ get_header();
         </article>
         <article class="faq-card-remix">
           <h3>What exactly is the prize?</h3>
-          <p>One prize equal to 50% of total ticket sales (currently estimated at $3,780 based on sales to date). Prize is awarded as described and is not transferable.</p>
+          <p>One prize equal to 50% of total ticket sales (currently estimated at $4,612 based on sales to date). Prize is awarded as described and is not transferable.</p>
         </article>
         <article class="faq-card-remix">
           <h3>What are my odds of winning?</h3>
