@@ -1,30 +1,23 @@
-FROM wordpress:php8.2-apache
+FROM nginx:alpine
 
-# Install MariaDB server alongside WordPress/PHP/Apache plus curl for wp-cli download.
-RUN apt-get update \
-    && apt-get install -y mariadb-server mariadb-client curl \
-    && rm -rf /var/lib/apt/lists/*
+COPY nginx.conf /etc/nginx/conf.d/default.conf
 
-# Ensure the MySQL data directory exists and is owned by mysql.
-RUN mkdir -p /var/lib/mysql && chown -R mysql:mysql /var/lib/mysql
+COPY index.html /usr/share/nginx/html/index.html
+COPY 404.html /usr/share/nginx/html/404.html
+COPY assets /usr/share/nginx/html/assets
+COPY faq /usr/share/nginx/html/faq
+COPY rules /usr/share/nginx/html/rules
+COPY prizes /usr/share/nginx/html/prizes
+COPY play /usr/share/nginx/html/play
+COPY disclaimer /usr/share/nginx/html/disclaimer
+COPY terms-and-conditions /usr/share/nginx/html/terms-and-conditions
+COPY privacy-policy /usr/share/nginx/html/privacy-policy
+COPY privacy /usr/share/nginx/html/privacy
 
-# Install wp-cli for automated site setup.
-RUN curl -o /usr/local/bin/wp https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar \
-    && chmod +x /usr/local/bin/wp
-
-# Silence Apache ServerName warnings.
-RUN echo "ServerName localhost" > /etc/apache2/conf-available/servername.conf \
-    && a2enconf servername
-
-# Add the wrapper entrypoint that boots MariaDB then hands off to WordPress.
-COPY wp-entrypoint.sh /usr/local/bin/wp-entrypoint.sh
-RUN chmod +x /usr/local/bin/wp-entrypoint.sh
-
-# Copy the custom WordPress theme and site icons into the source tree that populates /var/www/html.
-COPY wp-content /usr/src/wordpress/wp-content
-COPY favicon.ico apple-touch-icon.png /usr/src/wordpress/
-COPY wp-setup.conf /usr/src/wordpress/wp-setup.conf
-COPY wp-plugins /usr/src/wordpress/wp-plugins
-
-ENTRYPOINT ["wp-entrypoint.sh"]
-CMD ["apache2-foreground"]
+COPY apple-touch-icon.png /usr/share/nginx/html/apple-touch-icon.png
+COPY favicon.ico /usr/share/nginx/html/favicon.ico
+COPY favicon-16x16.png /usr/share/nginx/html/favicon-16x16.png
+COPY favicon-32x32.png /usr/share/nginx/html/favicon-32x32.png
+COPY favicon-96x96.png /usr/share/nginx/html/favicon-96x96.png
+COPY android-chrome-192x192.png /usr/share/nginx/html/android-chrome-192x192.png
+COPY android-chrome-512x512.png /usr/share/nginx/html/android-chrome-512x512.png
