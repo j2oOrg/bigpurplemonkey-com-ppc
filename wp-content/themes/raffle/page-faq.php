@@ -55,8 +55,8 @@ get_header();
         </div>
         <p class="faq-kicker">Help center</p>
         <h1 class="faq-title">Raffle FAQ</h1>
-        <p class="faq-lead">Clear, plain-language answers about ticketing, eligibility, prizes, and support for the Bigpurplemonkey Wildlife Foundation 50/50 raffle.</p>
-        <p class="faq-note">bigpurplemonkey is the campaign name; the foundation is the licensed operator under AGLC oversight.</p>
+        <p class="faq-lead">Straightforward answers about ticketing, eligibility, prizes, and support for the Bigpurplemonkey Wildlife Foundation 50/50 raffle.</p>
+        <p class="faq-note">bigpurplemonkey is the campaign name; the foundation holds the licence.</p>
       </div>
       <div class="banner-aside">
         <div class="faq-highlights">
@@ -70,7 +70,7 @@ get_header();
         <div class="faq-support">
           <h2>Need help?</h2>
           <p>Email: <a href="mailto:support@bigpurplemonkey.com" class="faq-link">support@bigpurplemonkey.com</a></p>
-          <p>For licensed terms, see the <a href="<?php echo esc_url( home_url('/rules') ); ?>" class="faq-link">Rules page</a>.</p>
+          <p>For full terms, see the <a href="<?php echo esc_url( home_url('/rules') ); ?>" class="faq-link">Rules page</a>.</p>
           <div class="support-actions">
             <a class="support-btn" href="<?php echo esc_url( home_url('/#contact') ); ?>"><i class="fa-solid fa-comment-dots"></i> Contact support</a>
           </div>
@@ -85,25 +85,25 @@ get_header();
           <details class="faq-item">
             <summary>What is the ticket price and how many are available?</summary>
             <div class="faq-answer">
-              <p>Tickets are $10 each and the draw is capped at 995 total entries.</p>
+              <p>Each ticket is $10, and only 995 are issued.</p>
             </div>
           </details>
           <details class="faq-item">
             <summary>How do I request tickets?</summary>
             <div class="faq-answer">
-              <p>Ticket purchases are handled by email inquiry only. Send a request to <a href="mailto:support@bigpurplemonkey.com" class="faq-link">support@bigpurplemonkey.com</a> and we will reply with next steps. There is no online checkout.</p>
+              <p>Tickets are requested by email. Send a note to <a href="mailto:support@bigpurplemonkey.com" class="faq-link">support@bigpurplemonkey.com</a> and we will reply with next steps. There is no online checkout.</p>
             </div>
           </details>
           <details class="faq-item">
             <summary>Who is eligible to purchase?</summary>
             <div class="faq-answer">
-              <p>You must be 18 or older and physically in Alberta when you buy. Employees of the licensee and their immediate family members are not eligible.</p>
+              <p>You must be 18+ and in Alberta at the time of purchase. Employees of the licensee and their immediate family members are not eligible.</p>
             </div>
           </details>
           <details class="faq-item">
             <summary>Can I buy more than one ticket?</summary>
             <div class="faq-answer">
-              <p>Yes. You may purchase multiple tickets, and each ticket is a separate entry.</p>
+              <p>Yes. You can request multiple tickets, and each ticket is its own entry.</p>
             </div>
           </details>
         </div>
@@ -115,25 +115,25 @@ get_header();
           <details class="faq-item">
             <summary>When and where is the draw conducted?</summary>
             <div class="faq-answer">
-              <p>The draw is scheduled for March 30, 2026 at Fort Edmonton Park in Edmonton and will be run under AGLC requirements.</p>
+              <p>The draw takes place March 30, 2026 at Fort Edmonton Park in Edmonton, in line with AGLC requirements.</p>
             </div>
           </details>
           <details class="faq-item">
             <summary>How is the prize calculated?</summary>
             <div class="faq-answer">
-              <p>The prize equals 50% of total ticket sales. The amount changes with sales volume, and the award is issued as described in the licence.</p>
+              <p>The winner receives 50% of total ticket sales. The amount changes as sales come in and is paid as set out in the licence.</p>
             </div>
           </details>
           <details class="faq-item">
             <summary>What are the odds of winning?</summary>
             <div class="faq-answer">
-              <p>Maximum odds are 1 in 995 because only 995 tickets are issued.</p>
+              <p>At most, odds are 1 in 995 because only 995 tickets are available.</p>
             </div>
           </details>
           <details class="faq-item">
             <summary>Do I need to attend the draw?</summary>
             <div class="faq-answer">
-              <p>No attendance is required. We will notify the winner and publish the result on the website.</p>
+              <p>Attendance is not required. We contact the winner and post the result on the site.</p>
             </div>
           </details>
         </div>
@@ -145,25 +145,25 @@ get_header();
           <details class="faq-item">
             <summary>How will the winner be contacted?</summary>
             <div class="faq-answer">
-              <p>The winner is contacted within five business days using the purchase contact details. A response is required within 30 days to claim the prize.</p>
+              <p>We contact the winner within five business days using the purchase details. The prize must be claimed within 30 days.</p>
             </div>
           </details>
           <details class="faq-item">
             <summary>Are ticket purchases refundable?</summary>
             <div class="faq-answer">
-              <p>No. All ticket sales are final and cannot be refunded or exchanged.</p>
+              <p>No. Ticket sales are final and not refundable.</p>
             </div>
           </details>
           <details class="faq-item">
             <summary>How are proceeds used?</summary>
             <div class="faq-answer">
-              <p>Proceeds support wildlife conservation and habitat restoration, including initiatives modeled after the Pheasant Release Program.</p>
+              <p>Proceeds fund wildlife conservation and habitat work, including programs like the Pheasant Release Program.</p>
             </div>
           </details>
           <details class="faq-item">
             <summary>Where can I get more information?</summary>
             <div class="faq-answer">
-              <p>Email <a href="mailto:support@bigpurplemonkey.com" class="faq-link">support@bigpurplemonkey.com</a> or use the <a href="<?php echo esc_url( home_url('/#contact') ); ?>" class="faq-link">contact section</a> for direct assistance.</p>
+              <p>Email <a href="mailto:support@bigpurplemonkey.com" class="faq-link">support@bigpurplemonkey.com</a> or use the <a href="<?php echo esc_url( home_url('/#contact') ); ?>" class="faq-link">contact section</a> for help.</p>
             </div>
           </details>
         </div>

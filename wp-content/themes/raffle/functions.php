@@ -85,20 +85,20 @@ add_filter('body_class', function ($classes) {
 
 function bigpurplemonkey_get_meta_description() {
     if (is_front_page()) {
-        return 'Licensed Alberta 50/50 raffle by Bigpurplemonkey Wildlife Foundation. Email to request tickets. Draw March 30, 2026 in Edmonton. 18+ in Alberta.';
+        return 'Licensed Alberta 50/50 raffle by Bigpurplemonkey Wildlife Foundation. Request tickets by email. Draw March 30, 2026 in Edmonton. 18+ in Alberta.';
     }
 
     if (is_page()) {
         $page = get_post();
         if ($page) {
             $descriptions = [
-                'rules' => 'Official rules for the Bigpurplemonkey 50/50 raffle, covering eligibility, ticket pricing, draw details, and the email-only purchase process.',
-                'faq' => 'Answers to common questions about the Bigpurplemonkey 50/50 raffle, including email ticket requests, eligibility, and draw timing.',
+                'rules' => 'Official rules for the Bigpurplemonkey 50/50 raffle: eligibility, ticket pricing, draw details, and email-only ticket requests.',
+                'faq' => 'Common questions about the Bigpurplemonkey 50/50 raffle, including ticket requests by email, eligibility, and draw details.',
                 'prizes' => 'Prize details for the Bigpurplemonkey 50/50 raffle, including the 50% payout structure and draw schedule.',
-                'play' => 'How to request 50/50 raffle tickets by email and what to expect before the licensed draw.',
-                'privacy-policy' => 'Privacy Policy for the Bigpurplemonkey 50/50 raffle describing data handling for ticket requests, communications, and compliance.',
-                'terms-and-conditions' => 'Terms and conditions for the Bigpurplemonkey 50/50 raffle, including sales, eligibility, and draw procedures.',
-                'disclaimer' => 'Raffle disclaimer outlining licensing, eligibility requirements, and participant responsibilities for the Bigpurplemonkey 50/50 draw.',
+                'play' => 'Info on requesting 50/50 raffle tickets by email and where to find draw details.',
+                'privacy-policy' => 'Privacy Policy for the Bigpurplemonkey 50/50 raffle covering data handling for ticket requests and communications.',
+                'terms-and-conditions' => 'Terms and conditions for the Bigpurplemonkey 50/50 raffle, including eligibility, ticket sales, and draw procedures.',
+                'disclaimer' => 'Disclaimer for the Bigpurplemonkey 50/50 raffle covering licensing, eligibility, and limitations.',
             ];
 
             if (!empty($page->post_name) && isset($descriptions[$page->post_name])) {
@@ -122,7 +122,7 @@ function bigpurplemonkey_get_meta_description() {
         return $tagline;
     }
 
-    return 'Licensed Alberta 50/50 raffle with draw details, ticket requests by email, and eligibility requirements.';
+    return 'Licensed Alberta 50/50 raffle with draw details, email ticket requests, and eligibility requirements.';
 }
 
 function bigpurplemonkey_get_meta_image_url() {

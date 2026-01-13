@@ -51,13 +51,13 @@ get_header();
         </div>
         <p class="policy-kicker">Data protection</p>
         <h1 class="policy-title">How we handle personal information</h1>
-        <p class="policy-lead">This policy explains how the Bigpurplemonkey Wildlife Foundation collects, uses, and safeguards personal information when you take part in the bigpurplemonkey Raffle (AGLC Raffle Licence #662967).</p>
+        <p class="policy-lead">This policy explains how the Bigpurplemonkey Wildlife Foundation collects, uses, and protects personal information when you visit our site or request tickets for the bigpurplemonkey 50/50 raffle (AGLC Raffle Licence #662967).</p>
         <div class="policy-meta">
           <div class="meta-item"><span>Last updated</span><strong>September 2025</strong></div>
           <div class="meta-item"><span>Effective date</span><strong>September 26, 2025</strong></div>
           <div class="meta-item"><span>Licensee</span><strong>Bigpurplemonkey Wildlife Foundation</strong></div>
         </div>
-        <p class="policy-note">bigpurplemonkey is the campaign name. The foundation is the licensed operator under AGLC oversight.</p>
+        <p class="policy-note">bigpurplemonkey is the campaign name; the foundation holds the licence.</p>
       </div>
       <aside class="policy-facts">
         <h2>At a glance</h2>
@@ -73,13 +73,13 @@ get_header();
     <section class="policy-sections">
       <article class="policy-panel">
         <h2>1. Information we collect</h2>
-        <p>We gather details you provide when purchasing tickets or contacting us, plus limited technical data when you browse the site.</p>
+        <p>We collect information you provide when you request tickets or contact us, along with basic technical data from your visit.</p>
         <h3>Information you provide</h3>
         <ul class="policy-list">
           <li>Full name and contact details</li>
           <li>Mailing address</li>
           <li>Age or eligibility verification details</li>
-          <li>Payment data provided when purchases are finalized through secure third-party providers</li>
+          <li>Payment details provided when purchases are finalized through secure third-party providers</li>
         </ul>
         <h3>Automatic collection</h3>
         <ul class="policy-list">
@@ -92,7 +92,7 @@ get_header();
 
       <article class="policy-panel">
         <h2>2. How we use your information</h2>
-        <p>We use personal information to operate the raffle and meet regulatory obligations.</p>
+        <p>We use personal information to run the raffle and meet regulatory requirements.</p>
         <ul class="policy-list">
           <li>Process ticket orders and confirm eligibility</li>
           <li>Administer the draw and prize delivery</li>
@@ -105,7 +105,7 @@ get_header();
 
       <article class="policy-panel">
         <h2>3. Legal basis for processing</h2>
-        <p>We rely on the following legal grounds when handling personal information:</p>
+        <p>We process personal information under these legal bases:</p>
         <ul class="policy-list">
           <li><strong>Contractual necessity:</strong> to deliver ticket purchases and participation</li>
           <li><strong>Legal obligations:</strong> to comply with AGLC rules and Alberta law</li>
@@ -115,7 +115,7 @@ get_header();
 
       <article class="policy-panel">
         <h2>4. Sharing and disclosure</h2>
-        <p>We do not sell or rent personal information. We may share it only in limited cases:</p>
+        <p>We do not sell or rent personal information. We share it only in limited cases:</p>
         <ul class="policy-list">
           <li><strong>Regulators:</strong> AGLC and other authorities when required</li>
           <li><strong>Service providers:</strong> trusted partners such as payment processors</li>
@@ -134,7 +134,7 @@ get_header();
           <li>Regular reviews of security practices</li>
           <li>Staff training on privacy responsibilities</li>
         </ul>
-        <p>No system is completely secure. We work to reduce risk but cannot guarantee absolute protection.</p>
+        <p>No system is perfectly secure. We reduce risk but cannot guarantee absolute protection.</p>
       </article>
 
       <article class="policy-panel">
@@ -149,7 +149,7 @@ get_header();
 
       <article class="policy-panel">
         <h2>7. Your rights and choices</h2>
-        <p>You can contact us to exercise the following rights:</p>
+        <p>You can contact us to exercise these rights:</p>
         <ul class="policy-list">
           <li>Access the information we hold about you</li>
           <li>Request corrections to inaccurate details</li>
@@ -160,7 +160,7 @@ get_header();
 
       <article class="policy-panel">
         <h2>8. Cookies and tracking</h2>
-        <p>Cookies and similar tools help us remember preferences and understand how the site is used.</p>
+        <p>Cookies and similar tools help the site work smoothly and show us how it is used.</p>
         <ul class="policy-list">
           <li>Store basic preferences</li>
           <li>Measure site usage and performance</li>
@@ -176,12 +176,12 @@ get_header();
 
       <article class="policy-panel">
         <h2>10. Children and age limits</h2>
-        <p>The raffle is restricted to individuals 18 or older. We do not knowingly collect information from minors and will remove it if discovered.</p>
+        <p>The raffle is for adults 18+. We do not knowingly collect information from minors and will delete it if we learn we have it.</p>
       </article>
 
       <article class="policy-panel">
         <h2>11. Updates to this policy</h2>
-        <p>We may revise this policy to reflect operational or legal changes. Updates are posted on this page with a new "Last updated" date.</p>
+        <p>We may revise this policy to reflect operational or legal changes. Updates appear on this page with a new "Last updated" date.</p>
       </article>
     </section>
 
@@ -197,7 +197,7 @@ get_header();
       </article>
       <article class="policy-panel">
         <h2>13. Consent</h2>
-        <p>By purchasing a ticket and providing personal information, you consent to the collection, use, and disclosure described in this policy and required by applicable law.</p>
+        <p>By requesting tickets or providing personal information, you consent to the collection, use, and disclosure described in this policy and required by applicable law.</p>
       </article>
     </section>
   </div>

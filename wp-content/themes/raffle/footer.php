@@ -15,25 +15,25 @@
 
     <div class="footer-note-w0e3" style="text-align:center;">
       <p class="section-sub-p0c6" style="margin:0;">
-        AGLC Raffle Licence #662967 is issued by Alberta Gaming, Liquor &amp; Cannabis.<br>
-        Licensed operator: Bigpurplemonkey Wildlife Foundation.
+        Licensed operator: Bigpurplemonkey Wildlife Foundation.<br>
+        AGLC Raffle Licence #662967 is issued by Alberta Gaming, Liquor &amp; Cannabis.
       </p>
       <p class="section-sub-p0c6" style="margin:0.5rem 0 0;">
-        Prize equals 50% of total ticket sales.<br>
+        Winner receives 50% of total ticket sales.<br>
         Draw scheduled for March 30, 2026.
       </p>
       <p class="section-sub-p0c6" style="margin:0.5rem 0 0;">
-        Ticket requests are accepted by email only; the site does not provide online checkout.
+        Ticket requests are accepted by email only; there is no online checkout on this site.
       </p>
       <p class="section-sub-p0c6" style="margin:0.5rem 0 0;">
-        Eligibility requires participants to be 18+ and physically in Alberta at the time of purchase.<br>
-        All raffles are conducted under AGLC regulations.
+        Eligibility requires participants to be 18+ and in Alberta at the time of purchase.<br>
+        The draw is conducted under AGLC regulations.
       </p>
       <p class="section-sub-p0c6" style="margin:0.5rem 0 0;">
-        Marketing services are provided by DigiBox Ltd, an authorized agent.
+        Marketing services are handled by DigiBox Ltd, an authorized agent.
       </p>
       <p class="section-sub-p0c6" style="margin:0.5rem 0 0;">
-        Responsible Participation: The raffle operates under Alberta law. Support is available if participation becomes a concern.<br>
+        Responsible participation: The raffle operates under Alberta law. Support is available if participation becomes a concern.<br>
         Alberta Gambling Helpline: 1-866-332-2322 • <a href="https://www.albertahealthservices.ca" target="_blank" rel="noopener noreferrer" class="link-accent-m8q5">www.albertahealthservices.ca</a>
       </p>
       <p class="section-sub-p0c6" style="margin:0.5rem 0 0;">
