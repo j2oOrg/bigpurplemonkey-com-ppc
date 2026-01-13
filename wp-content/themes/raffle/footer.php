@@ -15,31 +15,29 @@
 
     <div class="footer-note-w0e3" style="text-align:center;">
       <p class="section-sub-p0c6" style="margin:0;">
-        Bigpurplemonkey wildlife foundation<br>
-        AGLC Raffle Licence #662967<br>
-        Issued by Alberta Gaming, Liquor &amp; Cannabis
+        AGLC Raffle Licence #662967 is issued by Alberta Gaming, Liquor &amp; Cannabis.<br>
+        Licensed operator: Bigpurplemonkey Wildlife Foundation.
       </p>
       <p class="section-sub-p0c6" style="margin:0.5rem 0 0;">
-        Draw Date: March 30, 2026<br>
-        Prize: 50% of ticket sales
+        Prize equals 50% of total ticket sales.<br>
+        Draw scheduled for March 30, 2026.
       </p>
       <p class="section-sub-p0c6" style="margin:0.5rem 0 0;">
-        Ticket purchases are handled by email inquiry only.
+        Ticket requests are accepted by email only; the site does not provide online checkout.
       </p>
       <p class="section-sub-p0c6" style="margin:0.5rem 0 0;">
-        Must be 18+ and physically located in Alberta to participate.<br>
-        All raffles conducted in accordance with AGLC regulations.
+        Eligibility requires participants to be 18+ and physically in Alberta at the time of purchase.<br>
+        All raffles are conducted under AGLC regulations.
       </p>
       <p class="section-sub-p0c6" style="margin:0.5rem 0 0;">
-        Marketing services provided by DigiBox Ltd (authorized agent).
+        Marketing services are provided by DigiBox Ltd, an authorized agent.
       </p>
       <p class="section-sub-p0c6" style="margin:0.5rem 0 0;">
-        Responsible Participation: This raffle is conducted in accordance with Alberta law. If participation in games of chance becomes a concern, support is available.<br>
-        Alberta Gambling Helpline: 1-866-332-2322 • <a href="https://www.albertahealthservices.ca" target="_blank" rel="noopener noreferrer" class="link-accent-m8q5">www.albertahealthservices.ca</a><br>
-        Participation is limited to individuals 18+ located in Alberta.
+        Responsible Participation: The raffle operates under Alberta law. Support is available if participation becomes a concern.<br>
+        Alberta Gambling Helpline: 1-866-332-2322 • <a href="https://www.albertahealthservices.ca" target="_blank" rel="noopener noreferrer" class="link-accent-m8q5">www.albertahealthservices.ca</a>
       </p>
       <p class="section-sub-p0c6" style="margin:0.5rem 0 0;">
-        <a href="<?php echo esc_url( $privacy_link ); ?>" class="link-accent-m8q5">Privacy Policy</a>
+        <a href="<?php echo esc_url( $privacy_link ); ?>" class="link-accent-m8q5">Read the Privacy Policy</a>
       </p>
     </div>
   </div>

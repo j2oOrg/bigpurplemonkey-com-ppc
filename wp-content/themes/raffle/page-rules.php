@@ -60,25 +60,25 @@ get_header();
           <span class="rules-badge accent"><i class="fa-solid fa-certificate"></i> AGLC Licence #662967</span>
           <span class="rules-badge"><i class="fa-solid fa-shield-halved"></i> Licensed charitable raffle</span>
         </div>
-        <p class="rules-kicker">Raffle rules</p>
-        <h1 class="rules-title">Official terms and draw information</h1>
-        <p class="rules-lead">Use this page as the operating guide for the Bigpurplemonkey Wildlife Foundation 50/50 raffle. Ticket purchases are limited to adults (18+) who are in Alberta when the transaction occurs.</p>
+        <p class="rules-kicker">Raffle terms</p>
+        <h1 class="rules-title">Terms, eligibility, and draw details</h1>
+        <p class="rules-lead">Participation is limited to adults 18+ who are physically in Alberta at the time of purchase. This page provides the governing terms for the Bigpurplemonkey Wildlife Foundation 50/50 raffle.</p>
         <div class="rules-meta">
-          <div class="meta-item"><span>Licensee</span><strong>Bigpurplemonkey Wildlife Foundation</strong></div>
+          <div class="meta-item"><span>Licensed operator</span><strong>Bigpurplemonkey Wildlife Foundation</strong></div>
           <div class="meta-item"><span>AGLC raffle licence</span><strong>#662967</strong></div>
           <div class="meta-item"><span>Total tickets</span><strong>995</strong></div>
-          <div class="meta-item"><span>Ticket price</span><strong>$10 each</strong></div>
+          <div class="meta-item"><span>Ticket price</span><strong>$10 per entry</strong></div>
           <div class="meta-item"><span>Draw date</span><strong>March 30, 2026</strong></div>
         </div>
-        <p class="rules-note">bigpurplemonkey is the campaign name; the foundation is the licensed operator under AGLC oversight.</p>
+        <p class="rules-note">The campaign uses the bigpurplemonkey name, while the foundation serves as the licensed operator under AGLC oversight.</p>
       </div>
       <aside class="rules-facts">
-        <h2>Quick facts</h2>
+        <h2>Key facts</h2>
         <div class="facts-grid">
           <div class="fact"><span>Draw location</span><strong>Fort Edmonton Park, Edmonton</strong></div>
           <div class="fact"><span>Prize amount</span><strong>50% of ticket sales</strong></div>
           <div class="fact"><span>Eligibility</span><strong>18+ and in Alberta</strong></div>
-          <div class="fact"><span>Sales close</span><strong>When sold out or draw starts</strong></div>
+          <div class="fact"><span>Sales end</span><strong>When tickets sell out or the draw begins</strong></div>
           <div class="fact"><span>Winner count</span><strong>1</strong></div>
         </div>
       </aside>
@@ -86,70 +86,70 @@ get_header();
 
     <section class="rules-detail-grid">
       <article class="rule-panel">
-        <h3>Who may participate</h3>
-        <p>Entry is restricted to individuals aged 18 or older who are physically located in Alberta at the time of purchase. Employees of the licensee and their immediate family members are excluded.</p>
+        <h3>Eligibility requirements</h3>
+        <p>Employees of the licensed operator and their immediate family members are not eligible. Participation is restricted to adults 18 or older who are physically in Alberta when purchasing.</p>
       </article>
       <article class="rule-panel">
         <h3>Ticket limits and sales window</h3>
         <ul>
-          <li>Tickets are $10 each.</li>
-          <li>A maximum of 995 tickets will be issued.</li>
-          <li>Sales end when all tickets are sold or when the draw begins.</li>
-          <li>Ticket purchases are handled by email inquiry only; no online checkout is offered.</li>
+          <li>Ticket requests must be submitted by email; the site does not provide online checkout.</li>
+          <li>Each entry costs $10.</li>
+          <li>Inventory is capped at 995 tickets.</li>
+          <li>Sales close when the draw begins or when tickets sell out.</li>
         </ul>
       </article>
       <article class="rule-panel">
-        <h3>Draw timing and location</h3>
-        <p>The draw is scheduled for March 30, 2026 at Fort Edmonton Park in Edmonton and will be conducted in line with AGLC requirements.</p>
+        <h3>Draw schedule and venue</h3>
+        <p>In accordance with AGLC requirements, the draw will be held on March 30, 2026 at Fort Edmonton Park in Edmonton.</p>
       </article>
       <article class="rule-panel">
-        <h3>Prize and payout</h3>
-        <p>One winner receives a prize equal to 50% of total ticket sales. The prize is awarded as described in the licence, is not transferable, and no substitutes are offered beyond the authorized payout.</p>
+        <h3>Prize calculation and payout</h3>
+        <p>A single prize equal to 50% of total ticket sales is awarded to one winner. The payout follows the licence terms, is not transferable, and no substitute is provided beyond the authorized amount.</p>
       </article>
       <article class="rule-panel">
-        <h3>Winner notification and claim</h3>
-        <p>The selected winner is contacted within five business days using the purchase contact details and will also be announced on this website. A response is required within 30 days to claim the prize.</p>
+        <h3>Winner notification and claim period</h3>
+        <p>The winner is announced on this website and contacted within five business days using purchase details. The prize must be claimed within 30 days of notification.</p>
       </article>
       <article class="rule-panel">
-        <h3>Refund policy</h3>
-        <p>All ticket purchases are final. Refunds or exchanges are not available.</p>
+        <h3>Refunds and cancellations</h3>
+        <p>All ticket purchases are final; refunds and exchanges are not available.</p>
       </article>
       <article class="rule-panel">
-        <h3>Disputes and oversight</h3>
-        <p>Disputes are governed by Alberta law and AGLC regulations. The licensee decision is final, subject to AGLC oversight.</p>
+        <h3>Dispute resolution and oversight</h3>
+        <p>Alberta law and AGLC regulations govern disputes. Decisions of the licensed operator are final, subject to AGLC oversight.</p>
       </article>
     </section>
 
     <section class="rules-draw">
-      <h2>Draw workflow</h2>
-      <p>A short overview of how ticketing, selection, and payout are handled.</p>
+      <h2>Draw process</h2>
+      <p>The sequence below summarizes ticketing, selection, verification, and payout.</p>
       <ol class="draw-steps">
         <li class="draw-step">
           <div class="num">1</div>
           <div>
             <p class="step-title">Ticket sales</p>
-            <p class="step-copy">Tickets are sold at $10 each until the 995-ticket cap is reached or the draw begins.</p>
+            <p class="step-copy">Tickets are offered at $10 per entry until the 995-ticket cap is reached or sales close at the start of the draw.</p>
           </div>
         </li>
         <li class="draw-step">
           <div class="num">2</div>
           <div>
             <p class="step-title">Random draw</p>
-            <p class="step-copy">A random draw takes place on March 30, 2026 at Fort Edmonton Park, Edmonton.</p>
+            <p class="step-copy">A random draw is conducted on March 30, 2026 at Fort Edmonton Park in Edmonton.</p>
           </div>
         </li>
         <li class="draw-step">
           <div class="num">3</div>
           <div>
             <p class="step-title">Eligibility check</p>
-            <p class="step-copy">The winning entry is verified against the licence requirements and eligibility conditions.</p>
+            <p class="step-copy">The selected entry is reviewed against licence conditions and eligibility requirements.</p>
           </div>
         </li>
         <li class="draw-step">
           <div class="num">4</div>
           <div>
             <p class="step-title">Prize payout</p>
-            <p class="step-copy">The winner receives 50% of total ticket sales after verification is complete.</p>
+            <p class="step-copy">After verification, the winner receives 50% of total ticket sales.</p>
           </div>
         </li>
       </ol>
@@ -157,8 +157,8 @@ get_header();
 
     <section class="rules-help">
       <div class="help-card">
-        <h3>Questions about these rules?</h3>
-        <p>Use the contact form for clarifications or review the FAQ for common answers.</p>
+        <h3>Need clarification?</h3>
+        <p>For common topics, review the FAQ; for specific questions, contact us directly.</p>
         <div class="help-actions">
           <a href="<?php echo esc_url( home_url('/#contact') ); ?>"><i class="fa-solid fa-comment-dots"></i> Contact us</a>
           <a href="<?php echo esc_url( home_url('/faq') ); ?>"><i class="fa-solid fa-circle-question"></i> View FAQ</a>
@@ -166,8 +166,8 @@ get_header();
       </div>
       <div class="help-card">
         <h3>Responsible participation</h3>
-        <p>Need support? Call the Alberta Health Services Addiction Helpline at 1-866-332-2322.</p>
-        <p>Play responsibly and only within your means.</p>
+        <p>If participation becomes a concern, contact the Alberta Health Services Addiction Helpline at 1-866-332-2322.</p>
+        <p>Please participate responsibly and stay within your limits.</p>
       </div>
     </section>
   </div>

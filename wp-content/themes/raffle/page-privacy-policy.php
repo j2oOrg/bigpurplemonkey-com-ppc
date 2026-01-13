@@ -79,7 +79,7 @@ get_header();
           <li>Full name and contact details</li>
           <li>Mailing address</li>
           <li>Age or eligibility verification details</li>
-          <li>Payment data processed by secure third-party providers</li>
+          <li>Payment data provided when purchases are finalized through secure third-party providers</li>
         </ul>
         <h3>Automatic collection</h3>
         <ul class="policy-list">
@@ -153,7 +153,7 @@ get_header();
         <ul class="policy-list">
           <li>Access the information we hold about you</li>
           <li>Request corrections to inaccurate details</li>
-          <li>Withdraw from the raffle before the draw (no refunds)</li>
+          <li>Withdraw an inquiry before a purchase is finalized; ticket sales are final once processed</li>
           <li>File a complaint with the Office of the Information and Privacy Commissioner of Alberta</li>
         </ul>
       </article>
@@ -189,7 +189,7 @@ get_header();
       <article class="policy-panel">
         <h2>12. Contact us</h2>
         <p><strong>Bigpurplemonkey Wildlife Foundation</strong><br>
-          Operator and Licensee for bigpurplemonkey Raffle 2025<br>
+          Operator and Licensee for the bigpurplemonkey 50/50 raffle<br>
           AGLC Raffle Licence #662967</p>
         <p><strong>Website:</strong> <a class="policy-link" href="<?php echo esc_url( home_url('/') ); ?>">bigpurplemonkey.com</a><br>
           <strong>Email:</strong> <a class="policy-link" href="mailto:support@bigpurplemonkey.com">support@bigpurplemonkey.com</a></p>
