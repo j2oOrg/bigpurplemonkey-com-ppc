@@ -1,41 +1,5 @@
+// Site interactions for the static raffle pages.
 document.addEventListener("DOMContentLoaded", () => {
-  // Contact form validation
-  const form = document.getElementById("hubForm");
-  const status = document.getElementById("hubStatus");
-
-  if (form && status) {
-    form.addEventListener("submit", (e) => {
-      e.preventDefault();
-      status.textContent = "";
-      status.className = "form-status-h1m6";
-
-      const name = document.getElementById("hubName").value.trim();
-      const email = document.getElementById("hubEmail").value.trim();
-      const message = document.getElementById("hubMessage").value.trim();
-      const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-
-      if (!name || !email || !message) {
-        status.textContent = "Please fill in all fields before submitting.";
-        status.classList.add("error");
-        return;
-      }
-      if (!emailPattern.test(email)) {
-        status.textContent = "Please enter a valid email address.";
-        status.classList.add("error");
-        return;
-      }
-
-      form.reset();
-      status.textContent = "Message sent successfully! We’ll reply within 48 hours.";
-      status.classList.add("success");
-
-      setTimeout(() => {
-        status.textContent = "";
-        status.className = "form-status-h1m6";
-      }, 4000);
-    });
-  }
-
   // Scroll to top
   const scrollBtn = document.getElementById("hubScrollTop");
   if (scrollBtn) {
@@ -68,43 +32,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
     document.addEventListener("keydown", (e) => {
       if (e.key === "Escape") toggleModal(false);
-    });
-  }
-
-  // Signup form validation (modal)
-  const signupForm = document.getElementById("signupForm");
-  const signupStatus = document.getElementById("signupStatus");
-  if (signupForm && signupStatus) {
-    signupForm.addEventListener("submit", (e) => {
-      e.preventDefault();
-      signupStatus.textContent = "";
-      signupStatus.className = "modal-status";
-
-      const name = document.getElementById("signupName").value.trim();
-      const email = document.getElementById("signupEmail").value.trim();
-      const phone = document.getElementById("signupPhone").value.trim();
-      const message = document.getElementById("signupMessage").value.trim();
-      const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-
-      if (!name || !email || !phone || !message) {
-        signupStatus.textContent = "Please complete all fields before submitting.";
-        signupStatus.classList.add("error");
-        return;
-      }
-      if (!emailPattern.test(email)) {
-        signupStatus.textContent = "Please enter a valid email address.";
-        signupStatus.classList.add("error");
-        return;
-      }
-
-      signupForm.reset();
-      signupStatus.textContent = "Message sent! We’ll reply with purchase details.";
-      signupStatus.classList.add("success");
-      setTimeout(() => {
-        signupStatus.textContent = "";
-        signupStatus.className = "modal-status";
-        toggleModal(false);
-      }, 3500);
     });
   }
 
