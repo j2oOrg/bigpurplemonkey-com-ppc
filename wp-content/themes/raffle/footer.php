@@ -24,6 +24,9 @@
         Prize: 50% of ticket sales
       </p>
       <p class="section-sub-p0c6" style="margin:0.5rem 0 0;">
+        Ticket purchases are handled by email inquiry only.
+      </p>
+      <p class="section-sub-p0c6" style="margin:0.5rem 0 0;">
         Must be 18+ and physically located in Alberta to participate.<br>
         All raffles conducted in accordance with AGLC regulations.
       </p>

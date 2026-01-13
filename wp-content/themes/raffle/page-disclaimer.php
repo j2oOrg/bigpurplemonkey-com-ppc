@@ -10,16 +10,18 @@ get_header();
     <div class="notice-box-a9r0">
       <h2 class="section-title-m3y2">Disclaimer</h2>
       <h3 class="subheading-c8q2">1. Purpose</h3>
-      <p class="section-sub-p0c6"><strong>bigpurplemonkey</strong> is an entertainment-only shell for social game-style browser experiences. There are no deposits, wagers, cashouts, or prizes anywhere on this site.</p>
+      <p class="section-sub-p0c6"><strong>bigpurplemonkey</strong> provides information about the Bigpurplemonkey Wildlife Foundation 50/50 raffle and supports ticket purchase inquiries. Ticket purchases are handled by email only; no online checkout or automated payment is offered on this site.</p>
       <h3 class="subheading-c8q2">2. Audience</h3>
-      <p class="section-sub-p0c6">Use is restricted to adults aged 18+. If you are not of age in your region, please do not access or share this site.</p>
-      <h3 class="subheading-c8q2">3. No advice</h3>
+      <p class="section-sub-p0c6">Participation is limited to adults aged 18+ who are physically in Alberta at the time of purchase. If you are not eligible, do not purchase tickets.</p>
+      <h3 class="subheading-c8q2">3. No guarantee of outcome</h3>
+      <p class="section-sub-p0c6">Raffle outcomes are determined by a random draw. The prize equals 50% of total ticket sales, and winning is not guaranteed.</p>
+      <h3 class="subheading-c8q2">4. No advice</h3>
       <p class="section-sub-p0c6">All content is for entertainment and creative reference. Nothing here should be treated as legal, financial, or professional advice.</p>
-      <h3 class="subheading-c8q2">4. Availability</h3>
+      <h3 class="subheading-c8q2">5. Availability</h3>
       <p class="section-sub-p0c6">We target fast, reliable loads, but uptime and performance may vary. Temporary downtime, latency, or browser differences may occur.</p>
-      <h3 class="subheading-c8q2">5. Acceptable use</h3>
+      <h3 class="subheading-c8q2">6. Acceptable use</h3>
       <p class="section-sub-p0c6">You agree not to scrape, reverse engineer, misuse, or misrepresent this platform. Lawful, respectful use is required at all times.</p>
-      <h3 class="subheading-c8q2">6. External content</h3>
+      <h3 class="subheading-c8q2">7. External content</h3>
       <p class="section-sub-p0c6">Links or embeds may point to external providers. We do not control third-party content or guarantee its safety or accuracy.</p>
     </div>
   </div>

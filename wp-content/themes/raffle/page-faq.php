@@ -89,6 +89,12 @@ get_header();
             </div>
           </details>
           <details class="faq-item">
+            <summary>How do I request tickets?</summary>
+            <div class="faq-answer">
+              <p>Ticket purchases are handled by email inquiry only. Send a request to <a href="mailto:support@bigpurplemonkey.com" class="faq-link">support@bigpurplemonkey.com</a> and we will reply with next steps. There is no online checkout.</p>
+            </div>
+          </details>
+          <details class="faq-item">
             <summary>Who is eligible to purchase?</summary>
             <div class="faq-answer">
               <p>You must be 18 or older and physically in Alberta when you buy. Employees of the licensee and their immediate family members are not eligible.</p>
@@ -115,7 +121,7 @@ get_header();
           <details class="faq-item">
             <summary>How is the prize calculated?</summary>
             <div class="faq-answer">
-              <p>The prize equals 50% of total ticket sales (currently estimated at $4,612 based on sales to date). The award is issued as described in the licence and is not transferable.</p>
+              <p>The prize equals 50% of total ticket sales. The amount changes with sales volume, and the award is issued as described in the licence.</p>
             </div>
           </details>
           <details class="faq-item">

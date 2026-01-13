@@ -82,3 +82,26 @@ add_filter('body_class', function ($classes) {
     $classes[] = 'nova-shell-p7q4';
     return $classes;
 });
+
+function bigpurplemonkey_publish_privacy_policy_page($page_id) {
+    if (!$page_id || !current_user_can('publish_pages')) {
+        return;
+    }
+
+    $status = get_post_status($page_id);
+    if ($status && in_array($status, ['draft', 'pending'], true)) {
+        wp_update_post([
+            'ID' => $page_id,
+            'post_status' => 'publish',
+        ]);
+    }
+}
+
+add_action('admin_init', function () {
+    $page_id = (int) get_option('wp_page_for_privacy_policy');
+    bigpurplemonkey_publish_privacy_policy_page($page_id);
+});
+
+add_action('update_option_wp_page_for_privacy_policy', function ($old_value, $value) {
+    bigpurplemonkey_publish_privacy_policy_page((int) $value);
+}, 10, 2);

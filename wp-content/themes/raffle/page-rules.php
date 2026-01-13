@@ -79,7 +79,7 @@ get_header();
           <div class="fact"><span>Prize amount</span><strong>50% of ticket sales</strong></div>
           <div class="fact"><span>Eligibility</span><strong>18+ and in Alberta</strong></div>
           <div class="fact"><span>Sales close</span><strong>When sold out or draw starts</strong></div>
-          <div class="fact"><span>Licence term</span><strong>Sep 26, 2025 - Dec 31, 2025</strong></div>
+          <div class="fact"><span>Winner count</span><strong>1</strong></div>
         </div>
       </aside>
     </section>
@@ -95,6 +95,7 @@ get_header();
           <li>Tickets are $10 each.</li>
           <li>A maximum of 995 tickets will be issued.</li>
           <li>Sales end when all tickets are sold or when the draw begins.</li>
+          <li>Ticket purchases are handled by email inquiry only; no online checkout is offered.</li>
         </ul>
       </article>
       <article class="rule-panel">
