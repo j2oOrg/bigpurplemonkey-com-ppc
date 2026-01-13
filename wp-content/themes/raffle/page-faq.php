@@ -6,111 +6,162 @@
 get_header();
 ?>
 <style id="raffle-inline-faq">
-.faq-remix{background:linear-gradient(145deg, #0b0c3f, #141b5f 55%, #0b102e); color:#fef9ff; padding:2.8rem 0 3.6rem;}
-.faq-shell{width:min(1180px, 100% - 2.4rem); margin:0 auto;}
-.faq-hero-block{display:grid; grid-template-columns:1.05fr 0.95fr; gap:1.2rem; align-items:start; margin-bottom:2rem;}
-.faq-hero-card{background:linear-gradient(150deg, rgba(255,255,255,0.14), rgba(255,255,255,0.08)); border:1px solid rgba(255,255,255,0.22); border-radius:18px; padding:1.25rem; box-shadow:0 24px 60px rgba(10,6,64,0.55);}
-.faq-pill-row{display:flex; flex-wrap:wrap; gap:0.6rem; margin-bottom:0.55rem;}
-.faq-pill{display:inline-flex; align-items:center; gap:0.4rem; padding:0.42rem 0.9rem; border-radius:999px; background:rgba(255,255,255,0.12); border:1px solid rgba(255,255,255,0.22); color:#fef9ff; font-weight:700;}
-.faq-pill.accent{background:rgba(255,102,196,0.18); border-color:rgba(255,102,196,0.35); color:#ff66c4;}
-.faq-hero-title{font-family:"Baloo 2","Nunito",system-ui,sans-serif; font-size:2.45rem; margin:0 0 0.25rem; color:#ffffff;}
-.faq-sub{margin:0 0 0.65rem; color:#d6dcff; line-height:1.7;}
-.faq-meta{margin:0.3rem 0 0; color:#d6dcff; font-weight:700;}
-.faq-meta strong{color:#ff66c4;}
-.faq-license{margin:0.4rem 0 0; color:#d6dcff; font-weight:600;}
-.faq-info-rail{display:grid; grid-template-columns:repeat(auto-fit, minmax(220px,1fr)); gap:0.8rem;}
-.info-chip{background:rgba(255,255,255,0.12); border:1px solid rgba(255,255,255,0.22); border-radius:14px; padding:0.75rem 0.9rem; display:flex; align-items:center; gap:0.5rem; color:#fef9ff; font-weight:700;}
-.info-chip i{color:#ff66c4;}
-.faq-grid{display:grid; grid-template-columns:repeat(auto-fit, minmax(280px,1fr)); gap:0.9rem;}
-.faq-card-remix{background:linear-gradient(150deg, rgba(255,255,255,0.1), rgba(255,255,255,0.06)); border:1px solid rgba(255,255,255,0.22); border-radius:16px; padding:1rem 1.1rem; box-shadow:0 18px 48px rgba(10,6,64,0.55);}
-.faq-card-remix h3{margin:0 0 0.35rem; font-family:"Baloo 2","Nunito",system-ui,sans-serif; color:#ffffff; font-size:1.1rem;}
-.faq-card-remix p{margin:0; color:#d6dcff; line-height:1.65; font-weight:600;}
-.faq-grid .faq-card-remix a{color:#ff66c4; font-weight:700;}
-.faq-help{background:linear-gradient(150deg, rgba(255,102,196,0.16), rgba(93,244,255,0.12)); border:1px solid rgba(255,255,255,0.22); border-radius:18px; padding:1.1rem; box-shadow:0 22px 52px rgba(10,6,64,0.6); margin-top:1.2rem;}
-.faq-help h3{margin:0 0 0.35rem; color:#ffffff;}
-.faq-help p{margin:0.15rem 0; color:#d6dcff; font-weight:600;}
-.faq-help .contact-link{display:inline-flex; align-items:center; gap:0.4rem; margin-top:0.5rem; padding:0.6rem 0.85rem; border-radius:12px; border:1px solid rgba(255,255,255,0.22); background:rgba(255,255,255,0.12); color:#fef9ff; font-weight:800; text-decoration:none;}
-.faq-help .contact-link i{color:#ff66c4;}
-@media(max-width: 900px){.faq-hero-block{grid-template-columns:1fr;}}
+.faq-slate{background:linear-gradient(160deg, #0b0d34, #121a58 55%, #0a0f2b); color:#f2f4ff; padding:3rem 0 4rem;}
+.faq-shell{width:min(1180px, 100% - 2.4rem); margin:0 auto; display:flex; flex-direction:column; gap:1.6rem;}
+.faq-banner{display:grid; grid-template-columns:1.15fr 0.85fr; gap:1.4rem; background:linear-gradient(150deg, rgba(255,255,255,0.12), rgba(255,255,255,0.05)); border:1px solid rgba(255,255,255,0.2); border-radius:20px; padding:1.6rem; box-shadow:0 24px 60px rgba(10,6,64,0.55);}
+.banner-copy{display:flex; flex-direction:column; gap:0.65rem;}
+.faq-tags{display:flex; flex-wrap:wrap; gap:0.6rem;}
+.faq-tag{display:inline-flex; align-items:center; gap:0.4rem; padding:0.42rem 0.9rem; border-radius:999px; background:rgba(255,255,255,0.12); border:1px solid rgba(255,255,255,0.22); color:#fef9ff; font-weight:700;}
+.faq-tag.accent{background:rgba(255,102,196,0.18); border-color:rgba(255,102,196,0.35); color:#ff66c4;}
+.faq-tag i{color:#ff66c4;}
+.faq-kicker{text-transform:uppercase; letter-spacing:2px; font-size:0.85rem; margin:0; color:#d8ddff; font-weight:700;}
+.faq-title{font-family:"Baloo 2","Nunito",system-ui,sans-serif; font-size:2.4rem; margin:0; color:#ffffff;}
+.faq-lead{margin:0; color:#d8ddff; line-height:1.7; font-weight:600;}
+.faq-note{margin:0; color:#c9d0ff; font-weight:600;}
+.banner-aside{display:flex; flex-direction:column; gap:0.9rem;}
+.faq-highlights{display:grid; grid-template-columns:repeat(auto-fit, minmax(170px,1fr)); gap:0.6rem;}
+.highlight-card{background:rgba(255,255,255,0.1); border:1px solid rgba(255,255,255,0.2); border-radius:14px; padding:0.7rem 0.85rem;}
+.highlight-card span{display:block; text-transform:uppercase; letter-spacing:1px; font-size:0.7rem; color:#c9d0ff; font-weight:700; margin-bottom:0.2rem;}
+.highlight-card strong{color:#ffffff; font-weight:800;}
+.faq-support{background:linear-gradient(150deg, rgba(255,102,196,0.16), rgba(93,244,255,0.12)); border:1px solid rgba(255,255,255,0.22); border-radius:18px; padding:1.1rem; box-shadow:0 22px 52px rgba(10,6,64,0.6);}
+.faq-support h2{margin:0 0 0.35rem; color:#ffffff; font-family:"Baloo 2","Nunito",system-ui,sans-serif;}
+.faq-support p{margin:0.2rem 0; color:#d6dcff; font-weight:600;}
+.faq-link{color:#ff66c4; font-weight:700; text-decoration:none;}
+.support-actions{display:flex; flex-wrap:wrap; gap:0.6rem; margin-top:0.5rem;}
+.support-btn{display:inline-flex; align-items:center; gap:0.4rem; padding:0.6rem 0.9rem; border-radius:12px; border:1px solid rgba(255,255,255,0.22); background:rgba(255,255,255,0.12); color:#fef9ff; font-weight:800; text-decoration:none;}
+.support-btn i{color:#ff66c4;}
+.faq-groups{display:grid; grid-template-columns:repeat(auto-fit, minmax(300px,1fr)); gap:1rem;}
+.faq-group{background:linear-gradient(150deg, rgba(255,255,255,0.1), rgba(255,255,255,0.05)); border:1px solid rgba(255,255,255,0.2); border-radius:18px; padding:1.1rem; box-shadow:0 18px 48px rgba(10,6,64,0.45);}
+.faq-group h2{margin:0 0 0.6rem; color:#ffffff; font-family:"Baloo 2","Nunito",system-ui,sans-serif; font-size:1.2rem;}
+.faq-items{display:grid; gap:0.6rem;}
+.faq-item{background:rgba(255,255,255,0.12); border:1px solid rgba(255,255,255,0.22); border-radius:14px; padding:0.7rem 0.85rem;}
+.faq-item[open]{border-color:rgba(255,102,196,0.45); box-shadow:0 14px 32px rgba(10,6,64,0.45);}
+.faq-item summary{cursor:pointer; list-style:none; display:flex; align-items:center; justify-content:space-between; gap:0.8rem; font-weight:800; color:#ffffff;}
+.faq-item summary::-webkit-details-marker{display:none;}
+.faq-item summary::after{content:"+"; font-weight:800; color:#ff66c4;}
+.faq-item[open] summary::after{content:"-";}
+.faq-answer{margin-top:0.35rem; color:#d6dcff; font-weight:600; line-height:1.6;}
+.faq-answer p{margin:0;}
+@media(max-width: 960px){.faq-banner{grid-template-columns:1fr;}}
 </style>
 
-<main class="faq-remix">
+<main class="faq-slate">
   <div class="faq-shell">
-    <section class="faq-hero-block" id="faq">
-      <div class="faq-hero-card">
-        <div class="faq-pill-row">
-          <span class="faq-pill accent"><i class="fa-solid fa-certificate"></i> AGLC Licence #662967</span>
-          <span class="faq-pill"><i class="fa-solid fa-shield-halved"></i> Licensed charitable raffle</span>
+    <section class="faq-banner" id="faq">
+      <div class="banner-copy">
+        <div class="faq-tags">
+          <span class="faq-tag accent"><i class="fa-solid fa-certificate"></i> AGLC Licence #662967</span>
+          <span class="faq-tag"><i class="fa-solid fa-shield-halved"></i> Licensed charitable raffle</span>
         </div>
-        <p class="eyebrow-t8k9" style="margin:0 0 0.35rem;">Need answers?</p>
-        <h1 class="faq-hero-title">Frequently Asked Questions</h1>
-        <p class="faq-sub">Quick, plain-language answers for the Bigpurplemonkey wildlife foundation 50/50 raffle.</p>
-        <p class="faq-meta">Operator / Licensee: Bigpurplemonkey wildlife foundation • AGLC Raffle Licence #662967 • Draw: Mar 30, 2026 • 995 tickets at $10</p>
-        <p class="faq-license">bigpurplemonkey is the campaign/brand name; the foundation runs the raffle under AGLC oversight.</p>
+        <p class="faq-kicker">Help center</p>
+        <h1 class="faq-title">Raffle FAQ</h1>
+        <p class="faq-lead">Clear, plain-language answers about ticketing, eligibility, prizes, and support for the Bigpurplemonkey Wildlife Foundation 50/50 raffle.</p>
+        <p class="faq-note">bigpurplemonkey is the campaign name; the foundation is the licensed operator under AGLC oversight.</p>
       </div>
-      <div class="faq-hero-card">
-        <div class="faq-info-rail">
-          <div class="info-chip"><i class="fa-solid fa-ticket"></i> $10 per ticket</div>
-          <div class="info-chip"><i class="fa-solid fa-layer-group"></i> 995 tickets total</div>
-          <div class="info-chip"><i class="fa-solid fa-calendar-day"></i> Draw: Mar 30, 2026</div>
-          <div class="info-chip"><i class="fa-solid fa-location-dot"></i> Fort Edmonton Park, Edmonton</div>
+      <div class="banner-aside">
+        <div class="faq-highlights">
+          <div class="highlight-card"><span>Ticket price</span><strong>$10 per ticket</strong></div>
+          <div class="highlight-card"><span>Ticket cap</span><strong>995 total tickets</strong></div>
+          <div class="highlight-card"><span>Draw date</span><strong>March 30, 2026</strong></div>
+          <div class="highlight-card"><span>Draw location</span><strong>Fort Edmonton Park, Edmonton</strong></div>
+          <div class="highlight-card"><span>Prize</span><strong>50% of ticket sales</strong></div>
+          <div class="highlight-card"><span>Licence</span><strong>AGLC #662967</strong></div>
         </div>
-        <div class="faq-help">
-          <h3>Need help fast?</h3>
-          <p>Email: <a href="mailto:support@bigpurplemonkey.com" class="link-accent-m8q5">support@bigpurplemonkey.com</a></p>
-          <p>Check the <a href="<?php echo esc_url( home_url('/rules') ); ?>" class="link-accent-m8q5">rules</a> for full licensed details.</p>
-          <a class="contact-link" href="<?php echo esc_url( home_url('/#contact') ); ?>"><i class="fa-solid fa-comment-dots"></i> Contact support</a>
+        <div class="faq-support">
+          <h2>Need help?</h2>
+          <p>Email: <a href="mailto:support@bigpurplemonkey.com" class="faq-link">support@bigpurplemonkey.com</a></p>
+          <p>For licensed terms, see the <a href="<?php echo esc_url( home_url('/rules') ); ?>" class="faq-link">Rules page</a>.</p>
+          <div class="support-actions">
+            <a class="support-btn" href="<?php echo esc_url( home_url('/#contact') ); ?>"><i class="fa-solid fa-comment-dots"></i> Contact support</a>
+          </div>
         </div>
       </div>
     </section>
 
-    <section aria-labelledby="faq-list">
-      <div class="faq-grid" id="faq-list">
-        <article class="faq-card-remix">
-          <h3>How many tickets are there and what do they cost?</h3>
-          <p>Each ticket is $10 and only 995 tickets exist for this licensed draw.</p>
-        </article>
-        <article class="faq-card-remix">
-          <h3>Who’s allowed to buy?</h3>
-          <p>Buyers must be 18+ and physically in Alberta. The licensee’s employees and their immediate family members cannot participate.</p>
-        </article>
-        <article class="faq-card-remix">
-          <h3>Can I purchase more than one ticket?</h3>
-          <p>Yes. You can purchase multiple tickets—each one is a separate chance to win.</p>
-        </article>
-        <article class="faq-card-remix">
-          <h3>When and where is the draw held?</h3>
-          <p>The draw occurs March 30, 2026 at Fort Edmonton Park, Edmonton, in line with AGLC regulations.</p>
-        </article>
-        <article class="faq-card-remix">
-          <h3>What exactly is the prize?</h3>
-          <p>One prize equal to 50% of total ticket sales (currently estimated at $4,612 based on sales to date). Prize is awarded as described and is not transferable.</p>
-        </article>
-        <article class="faq-card-remix">
-          <h3>What are my odds of winning?</h3>
-          <p>Maximum odds are 1 in 995, reflecting the total number of issued tickets.</p>
-        </article>
-        <article class="faq-card-remix">
-          <h3>How will you notify the winner?</h3>
-          <p>We’ll reach out within 5 business days using the contact details provided at purchase. A reply is required within 30 days.</p>
-        </article>
-        <article class="faq-card-remix">
-          <h3>Do I need to attend the draw?</h3>
-          <p>No. Attendance isn’t required. We will contact the winner and post the result on our site.</p>
-        </article>
-        <article class="faq-card-remix">
-          <h3>Are ticket purchases refundable?</h3>
-          <p>All sales are final. Tickets are non-refundable and cannot be exchanged.</p>
-        </article>
-        <article class="faq-card-remix">
-          <h3>How are proceeds used?</h3>
-          <p>Funds support conservation-minded initiatives inspired by the Pheasant Release Program and related habitat efforts.</p>
-        </article>
-        <article class="faq-card-remix">
-          <h3>Where can I get more details?</h3>
-          <p>Email <a href="mailto:support@bigpurplemonkey.com">support@bigpurplemonkey.com</a> or visit the <a href="<?php echo esc_url( home_url('/#contact') ); ?>">contact section</a> for direct assistance.</p>
-        </article>
-      </div>
+    <section class="faq-groups" aria-label="Frequently asked questions">
+      <article class="faq-group">
+        <h2>Tickets and eligibility</h2>
+        <div class="faq-items">
+          <details class="faq-item">
+            <summary>What is the ticket price and how many are available?</summary>
+            <div class="faq-answer">
+              <p>Tickets are $10 each and the draw is capped at 995 total entries.</p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>Who is eligible to purchase?</summary>
+            <div class="faq-answer">
+              <p>You must be 18 or older and physically in Alberta when you buy. Employees of the licensee and their immediate family members are not eligible.</p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>Can I buy more than one ticket?</summary>
+            <div class="faq-answer">
+              <p>Yes. You may purchase multiple tickets, and each ticket is a separate entry.</p>
+            </div>
+          </details>
+        </div>
+      </article>
+
+      <article class="faq-group">
+        <h2>Draw and prize</h2>
+        <div class="faq-items">
+          <details class="faq-item">
+            <summary>When and where is the draw conducted?</summary>
+            <div class="faq-answer">
+              <p>The draw is scheduled for March 30, 2026 at Fort Edmonton Park in Edmonton and will be run under AGLC requirements.</p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>How is the prize calculated?</summary>
+            <div class="faq-answer">
+              <p>The prize equals 50% of total ticket sales (currently estimated at $4,612 based on sales to date). The award is issued as described in the licence and is not transferable.</p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>What are the odds of winning?</summary>
+            <div class="faq-answer">
+              <p>Maximum odds are 1 in 995 because only 995 tickets are issued.</p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>Do I need to attend the draw?</summary>
+            <div class="faq-answer">
+              <p>No attendance is required. We will notify the winner and publish the result on the website.</p>
+            </div>
+          </details>
+        </div>
+      </article>
+
+      <article class="faq-group">
+        <h2>Policies and support</h2>
+        <div class="faq-items">
+          <details class="faq-item">
+            <summary>How will the winner be contacted?</summary>
+            <div class="faq-answer">
+              <p>The winner is contacted within five business days using the purchase contact details. A response is required within 30 days to claim the prize.</p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>Are ticket purchases refundable?</summary>
+            <div class="faq-answer">
+              <p>No. All ticket sales are final and cannot be refunded or exchanged.</p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>How are proceeds used?</summary>
+            <div class="faq-answer">
+              <p>Proceeds support wildlife conservation and habitat restoration, including initiatives modeled after the Pheasant Release Program.</p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>Where can I get more information?</summary>
+            <div class="faq-answer">
+              <p>Email <a href="mailto:support@bigpurplemonkey.com" class="faq-link">support@bigpurplemonkey.com</a> or use the <a href="<?php echo esc_url( home_url('/#contact') ); ?>" class="faq-link">contact section</a> for direct assistance.</p>
+            </div>
+          </details>
+        </div>
+      </article>
     </section>
   </div>
 </main>
